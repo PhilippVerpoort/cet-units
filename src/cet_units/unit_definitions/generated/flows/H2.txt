@@ -1,0 +1,29 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_H2 = [amount_of_hydrogen] = g_H2
+
+metric_ton_H2 = 1e+06 * g_H2 = t_H2
+
+gram_H2_H = 1 * g_H2 = g_H2_H
+metric_ton_H2_H = 1e+06 * g_H2 = t_H2_H
+ton_H2_H = 9.07e+05 * g_H2 = ton_H2_H
+
+joule_H2_LHV = 8.33e-06 * g_H2 = J_H2_LHV
+joule_H2_HHV = 7.05e-06 * g_H2 = J_H2_HHV
+watt_hour_H2_LHV = 0.03 * g_H2 = Wh_H2_LHV
+watt_hour_H2_HHV = 0.0254 * g_H2 = Wh_H2_HHV
+british_thermal_unit_H2_LHV = 0.00879 * g_H2 = Btu_H2_LHV
+british_thermal_unit_H2_HHV = 0.00743 * g_H2 = Btu_H2_HHV
+international_british_thermal_unit_H2_LHV = 0.00879 * g_H2 = Btu_it_H2_LHV
+international_british_thermal_unit_H2_HHV = 0.00743 * g_H2 = Btu_it_H2_HHV
+thermochemical_british_thermal_unit_H2_LHV = 0.00879 * g_H2 = Btu_th_H2_LHV
+thermochemical_british_thermal_unit_H2_HHV = 0.00743 * g_H2 = Btu_th_H2_HHV
+
+cubic_meter_H2_norm = 83.8 * g_H2 = cu_m_H2_norm
+cubic_meter_H2_std = 89.9 * g_H2 = cu_m_H2_std
+cubic_foot_H2_norm = 2.37 * g_H2 = cu_ft_H2_norm
+cubic_foot_H2_std = 2.55 * g_H2 = cu_ft_H2_std
+billion_cubic_meter_H2_norm = 8.38e+10 * g_H2 = bcm_H2_norm
+billion_cubic_meter_H2_std = 8.99e+10 * g_H2 = bcm_H2_std
+liter_H2_norm = 0.0838 * g_H2 = l_H2_norm
+liter_H2_std = 0.0899 * g_H2 = l_H2_std

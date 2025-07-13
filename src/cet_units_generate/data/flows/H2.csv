@@ -1,0 +1,9 @@
+attribute,value,source,comment
+name,Hydrogen,,
+energycontent_LHV,113725.490196078 Btu/kg,Wang-2023,Calculated from values Energy/volume and density given in the source.
+energycontent_HHV,134509.803921569 Btu/kg,Wang-2023,Calculated from values Energy/volume and density given in the source
+density_norm,0.083752 kg/m**3 ,Lemmon-1997,
+density_std,0.089883 kg/m**3,Lemmon-1997,
+c_ratio,0,,Based on stoichiometry.
+h_ratio,1,,Based on stoichiometry.
+o_ratio,0,,Based on stoichiometry.

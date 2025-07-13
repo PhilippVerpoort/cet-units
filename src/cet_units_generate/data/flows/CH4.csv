@@ -1,0 +1,9 @@
+attribute,value,source,comment
+name,Methane,,
+energycontent_LHV,47390.8561333507 Btu/kg,Wang-2023,calculated from values Energy/volume and density given in the source
+energycontent_HHV,52603.8503080192 Btu/kg,Wang-2023,calculated from values Energy/volume and density given in the source
+density_norm,0.66816 kg/m**3,Lemmon-1997,
+density_std,0.71746,Lemmon-1997,
+c_ratio,0.75,,Based on stoichiometry.
+h_ratio,0.25,,Based on stoichiometry.
+o_ratio,0,,Based on stoichiometry.

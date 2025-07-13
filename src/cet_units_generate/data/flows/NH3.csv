@@ -1,0 +1,10 @@
+attribute,value,source,comment
+name,Ammonia,,
+energycontent_LHV,18.9 MJ/kg,PNNL-H2tools-ND,
+energycontent_HHV,22.5 MJ/kg,PNNL-H2tools-ND,
+density_norm,0.71606 kg/m**3,Lemmon-1997,
+density_std,0.77155,Lemmon-1997,
+c_ratio,0.0,,Based on stoichiometry.
+h_ratio,0.1765,,Based on stoichiometry.
+o_ratio,0.0,,Based on stoichiometry.
+n_ratio,0.8235,,Based on stoichiometry.

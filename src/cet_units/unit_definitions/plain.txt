@@ -1,0 +1,11 @@
+# Define prefixes.
+million- = 1E+6 = mn-
+billion- = 1E+9 = bn-
+trillion- = 1E+12 = tr-
+
+# Define a year to have 8760 hours.
+year = 8760 * hour = a
+
+# Define cubic meters as its own unit for volumes.
+cubic_meter = cubic meter = cu_m
+billion_cubic_meter = billioncubic_meter = bcm

@@ -1,0 +1,5 @@
+attribute,value,source,comment
+name,Coal,,
+energycontent_LHV,22.732 MJ/kg,Boundy-2011,
+energycontent_HHV,23.968 MJ/kg,Boundy-2011,
+c_ratio,0.586,Wang-2023,

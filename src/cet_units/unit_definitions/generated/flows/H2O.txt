@@ -1,0 +1,22 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_H2O = [amount_of_water] = g_H2O
+
+metric_ton_H2O = 1e+06 * g_H2O = t_H2O
+
+gram_H2O_H = 9 * g_H2O = g_H2O_H
+gram_H2O_O = 1.11 * g_H2O = g_H2O_O
+metric_ton_H2O_H = 9e+06 * g_H2O = t_H2O_H
+metric_ton_H2O_O = 1.11e+06 * g_H2O = t_H2O_O
+ton_H2O_H = 8.17e+06 * g_H2O = ton_H2O_H
+ton_H2O_O = 1.01e+06 * g_H2O = ton_H2O_O
+
+
+cubic_meter_H2O_norm = 9.98e+05 * g_H2O = cu_m_H2O_norm
+cubic_meter_H2O_std = 1e+06 * g_H2O = cu_m_H2O_std
+cubic_foot_H2O_norm = 2.83e+04 * g_H2O = cu_ft_H2O_norm
+cubic_foot_H2O_std = 2.83e+04 * g_H2O = cu_ft_H2O_std
+billion_cubic_meter_H2O_norm = 9.98e+14 * g_H2O = bcm_H2O_norm
+billion_cubic_meter_H2O_std = 1e+15 * g_H2O = bcm_H2O_std
+liter_H2O_norm = 998 * g_H2O = l_H2O_norm
+liter_H2O_std = 1e+03 * g_H2O = l_H2O_std

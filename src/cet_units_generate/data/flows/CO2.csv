@@ -1,0 +1,7 @@
+attribute,value,source,comment
+name,Purified CO2,,
+density_norm,1.8393 kg/m³,Lemmon-1997,
+density_std,1.9768 kg/m³,Lemmon-1997,
+c_ratio,0.273,,Based on stoichiometry.
+h_ratio,0.0,,Based on stoichiometry.
+o_ratio,0.727,,Based on stoichiometry.

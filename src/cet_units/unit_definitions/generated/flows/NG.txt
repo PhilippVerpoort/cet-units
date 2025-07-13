@@ -1,0 +1,29 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_NG = [amount_of_natural_gas] = g_NG
+
+metric_ton_NG = 1e+06 * g_NG = t_NG
+
+gram_NG_C = 1.38 * g_NG = g_NG_C
+metric_ton_NG_C = 1.38e+06 * g_NG = t_NG_C
+ton_NG_C = 1.25e+06 * g_NG = ton_NG_C
+
+joule_NG_LHV = 2.12e-05 * g_NG = J_NG_LHV
+joule_NG_HHV = 1.91e-05 * g_NG = J_NG_HHV
+watt_hour_NG_LHV = 0.0764 * g_NG = Wh_NG_LHV
+watt_hour_NG_HHV = 0.0689 * g_NG = Wh_NG_HHV
+british_thermal_unit_NG_LHV = 0.0224 * g_NG = Btu_NG_LHV
+british_thermal_unit_NG_HHV = 0.0202 * g_NG = Btu_NG_HHV
+international_british_thermal_unit_NG_LHV = 0.0224 * g_NG = Btu_it_NG_LHV
+international_british_thermal_unit_NG_HHV = 0.0202 * g_NG = Btu_it_NG_HHV
+thermochemical_british_thermal_unit_NG_LHV = 0.0224 * g_NG = Btu_th_NG_LHV
+thermochemical_british_thermal_unit_NG_HHV = 0.0202 * g_NG = Btu_th_NG_HHV
+
+cubic_meter_NG_norm = 777 * g_NG = cu_m_NG_norm
+cubic_meter_NG_std = 777 * g_NG = cu_m_NG_std
+cubic_foot_NG_norm = 22 * g_NG = cu_ft_NG_norm
+cubic_foot_NG_std = 22 * g_NG = cu_ft_NG_std
+billion_cubic_meter_NG_norm = 7.77e+11 * g_NG = bcm_NG_norm
+billion_cubic_meter_NG_std = 7.77e+11 * g_NG = bcm_NG_std
+liter_NG_norm = 0.777 * g_NG = l_NG_norm
+liter_NG_std = 0.777 * g_NG = l_NG_std

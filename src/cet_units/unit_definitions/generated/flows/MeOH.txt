@@ -1,0 +1,35 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_MeOH = [amount_of_methanol] = g_MeOH
+
+metric_ton_MeOH = 1e+06 * g_MeOH = t_MeOH
+
+gram_MeOH_C = 2.67 * g_MeOH = g_MeOH_C
+gram_MeOH_H = 7.94 * g_MeOH = g_MeOH_H
+gram_MeOH_O = 2 * g_MeOH = g_MeOH_O
+metric_ton_MeOH_C = 2.67e+06 * g_MeOH = t_MeOH_C
+metric_ton_MeOH_H = 7.94e+06 * g_MeOH = t_MeOH_H
+metric_ton_MeOH_O = 2e+06 * g_MeOH = t_MeOH_O
+ton_MeOH_C = 2.42e+06 * g_MeOH = ton_MeOH_C
+ton_MeOH_H = 7.2e+06 * g_MeOH = ton_MeOH_H
+ton_MeOH_O = 1.82e+06 * g_MeOH = ton_MeOH_O
+
+joule_MeOH_LHV = 4.98e-05 * g_MeOH = J_MeOH_LHV
+joule_MeOH_HHV = 4.37e-05 * g_MeOH = J_MeOH_HHV
+watt_hour_MeOH_LHV = 0.179 * g_MeOH = Wh_MeOH_LHV
+watt_hour_MeOH_HHV = 0.157 * g_MeOH = Wh_MeOH_HHV
+british_thermal_unit_MeOH_LHV = 0.0525 * g_MeOH = Btu_MeOH_LHV
+british_thermal_unit_MeOH_HHV = 0.0461 * g_MeOH = Btu_MeOH_HHV
+international_british_thermal_unit_MeOH_LHV = 0.0525 * g_MeOH = Btu_it_MeOH_LHV
+international_british_thermal_unit_MeOH_HHV = 0.0461 * g_MeOH = Btu_it_MeOH_HHV
+thermochemical_british_thermal_unit_MeOH_LHV = 0.0525 * g_MeOH = Btu_th_MeOH_LHV
+thermochemical_british_thermal_unit_MeOH_HHV = 0.0461 * g_MeOH = Btu_th_MeOH_HHV
+
+cubic_meter_MeOH_norm = 7.91e+05 * g_MeOH = cu_m_MeOH_norm
+cubic_meter_MeOH_std = 810 cubic_meter / gram * g_MeOH = cu_m_MeOH_std
+cubic_foot_MeOH_norm = 2.24e+04 * g_MeOH = cu_ft_MeOH_norm
+cubic_foot_MeOH_std = 810 cubic_foot / gram * g_MeOH = cu_ft_MeOH_std
+billion_cubic_meter_MeOH_norm = 7.91e+14 * g_MeOH = bcm_MeOH_norm
+billion_cubic_meter_MeOH_std = 810 billion_cubic_meter / gram * g_MeOH = bcm_MeOH_std
+liter_MeOH_norm = 791 * g_MeOH = l_MeOH_norm
+liter_MeOH_std = 810 liter / gram * g_MeOH = l_MeOH_std

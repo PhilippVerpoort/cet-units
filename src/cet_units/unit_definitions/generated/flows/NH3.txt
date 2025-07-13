@@ -1,0 +1,32 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_NH3 = [amount_of_ammonia] = g_NH3
+
+metric_ton_NH3 = 1e+06 * g_NH3 = t_NH3
+
+gram_NH3_H = 5.67 * g_NH3 = g_NH3_H
+gram_NH3_N = 1.21 * g_NH3 = g_NH3_N
+metric_ton_NH3_H = 5.67e+06 * g_NH3 = t_NH3_H
+metric_ton_NH3_N = 1.21e+06 * g_NH3 = t_NH3_N
+ton_NH3_H = 5.14e+06 * g_NH3 = ton_NH3_H
+ton_NH3_N = 1.1e+06 * g_NH3 = ton_NH3_N
+
+joule_NH3_LHV = 5.29e-05 * g_NH3 = J_NH3_LHV
+joule_NH3_HHV = 4.44e-05 * g_NH3 = J_NH3_HHV
+watt_hour_NH3_LHV = 0.19 * g_NH3 = Wh_NH3_LHV
+watt_hour_NH3_HHV = 0.16 * g_NH3 = Wh_NH3_HHV
+british_thermal_unit_NH3_LHV = 0.0558 * g_NH3 = Btu_NH3_LHV
+british_thermal_unit_NH3_HHV = 0.0469 * g_NH3 = Btu_NH3_HHV
+international_british_thermal_unit_NH3_LHV = 0.0558 * g_NH3 = Btu_it_NH3_LHV
+international_british_thermal_unit_NH3_HHV = 0.0469 * g_NH3 = Btu_it_NH3_HHV
+thermochemical_british_thermal_unit_NH3_LHV = 0.0558 * g_NH3 = Btu_th_NH3_LHV
+thermochemical_british_thermal_unit_NH3_HHV = 0.0469 * g_NH3 = Btu_th_NH3_HHV
+
+cubic_meter_NH3_norm = 716 * g_NH3 = cu_m_NH3_norm
+cubic_meter_NH3_std = 0.772 cubic_meter / gram * g_NH3 = cu_m_NH3_std
+cubic_foot_NH3_norm = 20.3 * g_NH3 = cu_ft_NH3_norm
+cubic_foot_NH3_std = 0.772 cubic_foot / gram * g_NH3 = cu_ft_NH3_std
+billion_cubic_meter_NH3_norm = 7.16e+11 * g_NH3 = bcm_NH3_norm
+billion_cubic_meter_NH3_std = 0.772 billion_cubic_meter / gram * g_NH3 = bcm_NH3_std
+liter_NH3_norm = 0.716 * g_NH3 = l_NH3_norm
+liter_NH3_std = 0.772 liter / gram * g_NH3 = l_NH3_std

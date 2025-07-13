@@ -1,0 +1,7 @@
+attribute,value,source,comment
+name,Natural Gas,,,
+energycontent_LHV,44681.8181818182 Btu/kg,Wang-2023,calculated from values Energy/volume and density given in the source,
+energycontent_HHV,49500 Btu/kg,Wang-2023,calculated from values Energy/volume and density given in the source,
+density_norm,22 g/ft^3,Wang-2023,"not explicitly given if NTP or STP, assumed that value does not change much in this temperature range",
+density_std,22 g/ft^3,Wang-2023,"not explicitly given if NTP or STP, assumed that value does not change much in this temperature range",
+c_ratio,0.724,Wang-2023,,

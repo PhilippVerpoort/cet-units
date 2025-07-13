@@ -1,0 +1,9 @@
+attribute,value,source,comment
+name,Methanol,,
+energycontent_LHV,19045.2428476381 Btu/kg,Wang-2023,calculated from values Energy/volume and density given in the source
+energycontent_HHV,21689.9534264804 Btu/kg,Wang-2023,calculated from values Energy/volume and density given in the source
+density_norm,791.01 kg/m³,Lemmon-1997,
+density_std,809.73,Lemmon-1997,
+c_ratio,0.375,,Based on stoichiometry.
+h_ratio,0.126,,Based on stoichiometry.
+o_ratio,0.499,,Based on stoichiometry.

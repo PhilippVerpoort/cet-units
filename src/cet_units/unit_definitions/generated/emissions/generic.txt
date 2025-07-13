@@ -1,0 +1,338 @@
+# This file has been generated automatically. Do not edit manually.
+
+
+gram__CO2 = [ghg_emission] = g__CO2
+metric_ton__CO2 = 1E+6 gram__CO2 = t__CO2
+
+gram__CO2eq = gram__CO2 = g__CO2eq = gram__CO2_eq = g__CO2_eq = gram__CO2e = g__CO2e
+metric_ton__CO2eq = 1E+6 gram__CO2eq = t__CO2eq = metric_ton__CO2_eq = t__CO2_eq = metric_ton__CO2e = t__CO2e
+gram__C = gram__CO2eq * 3.6667 = g__C = gram__Ce = g__Ce
+metric_ton__C = 1E+6 gram__C = t__C = metric_ton__Ce = t__Ce
+
+
+gram__C10F18 = NaN gram__CO2 = g__C10F18
+metric_ton__C10F18 = 1E+6 gram__C10F18 = t__C10F18
+
+gram__C2F6 = NaN gram__CO2 = g__C2F6
+metric_ton__C2F6 = 1E+6 gram__C2F6 = t__C2F6
+
+gram__C3F8 = NaN gram__CO2 = g__C3F8
+metric_ton__C3F8 = 1E+6 gram__C3F8 = t__C3F8
+
+gram__C4F10 = NaN gram__CO2 = g__C4F10
+metric_ton__C4F10 = 1E+6 gram__C4F10 = t__C4F10
+
+gram__C5F12 = NaN gram__CO2 = g__C5F12
+metric_ton__C5F12 = 1E+6 gram__C5F12 = t__C5F12
+
+gram__C6F14 = NaN gram__CO2 = g__C6F14
+metric_ton__C6F14 = 1E+6 gram__C6F14 = t__C6F14
+
+gram__C7F16 = NaN gram__CO2 = g__C7F16
+metric_ton__C7F16 = 1E+6 gram__C7F16 = t__C7F16
+
+gram__C8F18 = NaN gram__CO2 = g__C8F18
+metric_ton__C8F18 = 1E+6 gram__C8F18 = t__C8F18
+
+gram__CCl4 = NaN gram__CO2 = g__CCl4
+metric_ton__CCl4 = 1E+6 gram__CCl4 = t__CCl4
+
+gram__CF2_4CH_OH = NaN gram__CO2 = g__CF2_4CH_OH
+metric_ton__CF2_4CH_OH = 1E+6 gram__CF2_4CH_OH = t__CF2_4CH_OH
+
+gram__CF3CF2CH2OH = NaN gram__CO2 = g__CF3CF2CH2OH
+metric_ton__CF3CF2CH2OH = 1E+6 gram__CF3CF2CH2OH = t__CF3CF2CH2OH
+
+gram__CF3CH2OH = NaN gram__CO2 = g__CF3CH2OH
+metric_ton__CF3CH2OH = 1E+6 gram__CF3CH2OH = t__CF3CH2OH
+
+gram__CF3I = NaN gram__CO2 = g__CF3I
+metric_ton__CF3I = 1E+6 gram__CF3I = t__CF3I
+
+gram__CF3_2CFOCH3 = NaN gram__CO2 = g__CF3_2CFOCH3
+metric_ton__CF3_2CFOCH3 = 1E+6 gram__CF3_2CFOCH3 = t__CF3_2CFOCH3
+
+gram__CF3_2CHOCH3 = NaN gram__CO2 = g__CF3_2CHOCH3
+metric_ton__CF3_2CHOCH3 = 1E+6 gram__CF3_2CHOCH3 = t__CF3_2CHOCH3
+
+gram__CF3_2CHOCHF2 = NaN gram__CO2 = g__CF3_2CHOCHF2
+metric_ton__CF3_2CHOCHF2 = 1E+6 gram__CF3_2CHOCHF2 = t__CF3_2CHOCHF2
+
+gram__CF3_2CHOH = NaN gram__CO2 = g__CF3_2CHOH
+metric_ton__CF3_2CHOH = 1E+6 gram__CF3_2CHOH = t__CF3_2CHOH
+
+gram__CF4 = NaN gram__CO2 = g__CF4
+metric_ton__CF4 = 1E+6 gram__CF4 = t__CF4
+
+gram__CFC11 = NaN gram__CO2 = g__CFC11
+metric_ton__CFC11 = 1E+6 gram__CFC11 = t__CFC11
+
+gram__CFC113 = NaN gram__CO2 = g__CFC113
+metric_ton__CFC113 = 1E+6 gram__CFC113 = t__CFC113
+
+gram__CFC114 = NaN gram__CO2 = g__CFC114
+metric_ton__CFC114 = 1E+6 gram__CFC114 = t__CFC114
+
+gram__CFC115 = NaN gram__CO2 = g__CFC115
+metric_ton__CFC115 = 1E+6 gram__CFC115 = t__CFC115
+
+gram__CFC12 = NaN gram__CO2 = g__CFC12
+metric_ton__CFC12 = 1E+6 gram__CFC12 = t__CFC12
+
+gram__CFC13 = NaN gram__CO2 = g__CFC13
+metric_ton__CFC13 = 1E+6 gram__CFC13 = t__CFC13
+
+gram__CH2Br2 = NaN gram__CO2 = g__CH2Br2
+metric_ton__CH2Br2 = 1E+6 gram__CH2Br2 = t__CH2Br2
+
+gram__CH2Cl2 = NaN gram__CO2 = g__CH2Cl2
+metric_ton__CH2Cl2 = 1E+6 gram__CH2Cl2 = t__CH2Cl2
+
+gram__CH3Br = NaN gram__CO2 = g__CH3Br
+metric_ton__CH3Br = 1E+6 gram__CH3Br = t__CH3Br
+
+gram__CH3CCl3 = NaN gram__CO2 = g__CH3CCl3
+metric_ton__CH3CCl3 = 1E+6 gram__CH3CCl3 = t__CH3CCl3
+
+gram__CH3Cl = NaN gram__CO2 = g__CH3Cl
+metric_ton__CH3Cl = 1E+6 gram__CH3Cl = t__CH3Cl
+
+gram__CH3OCH3 = NaN gram__CO2 = g__CH3OCH3
+metric_ton__CH3OCH3 = 1E+6 gram__CH3OCH3 = t__CH3OCH3
+
+gram__CH4 = NaN gram__CO2 = g__CH4
+metric_ton__CH4 = 1E+6 gram__CH4 = t__CH4
+
+gram__CHBrF2 = NaN gram__CO2 = g__CHBrF2
+metric_ton__CHBrF2 = 1E+6 gram__CHBrF2 = t__CHBrF2
+
+gram__CHCl3 = NaN gram__CO2 = g__CHCl3
+metric_ton__CHCl3 = 1E+6 gram__CHCl3 = t__CHCl3
+
+gram__HCFC123 = NaN gram__CO2 = g__HCFC123
+metric_ton__HCFC123 = 1E+6 gram__HCFC123 = t__HCFC123
+
+gram__HCFC124 = NaN gram__CO2 = g__HCFC124
+metric_ton__HCFC124 = 1E+6 gram__HCFC124 = t__HCFC124
+
+gram__HCFC141b = NaN gram__CO2 = g__HCFC141b
+metric_ton__HCFC141b = 1E+6 gram__HCFC141b = t__HCFC141b
+
+gram__HCFC142b = NaN gram__CO2 = g__HCFC142b
+metric_ton__HCFC142b = 1E+6 gram__HCFC142b = t__HCFC142b
+
+gram__HCFC21 = NaN gram__CO2 = g__HCFC21
+metric_ton__HCFC21 = 1E+6 gram__HCFC21 = t__HCFC21
+
+gram__HCFC22 = NaN gram__CO2 = g__HCFC22
+metric_ton__HCFC22 = 1E+6 gram__HCFC22 = t__HCFC22
+
+gram__HCFC225ca = NaN gram__CO2 = g__HCFC225ca
+metric_ton__HCFC225ca = 1E+6 gram__HCFC225ca = t__HCFC225ca
+
+gram__HCFC225cb = NaN gram__CO2 = g__HCFC225cb
+metric_ton__HCFC225cb = 1E+6 gram__HCFC225cb = t__HCFC225cb
+
+gram__HCFE235da2 = NaN gram__CO2 = g__HCFE235da2
+metric_ton__HCFE235da2 = 1E+6 gram__HCFE235da2 = t__HCFE235da2
+
+gram__HFC125 = NaN gram__CO2 = g__HFC125
+metric_ton__HFC125 = 1E+6 gram__HFC125 = t__HFC125
+
+gram__HFC134 = NaN gram__CO2 = g__HFC134
+metric_ton__HFC134 = 1E+6 gram__HFC134 = t__HFC134
+
+gram__HFC134a = NaN gram__CO2 = g__HFC134a
+metric_ton__HFC134a = 1E+6 gram__HFC134a = t__HFC134a
+
+gram__HFC143 = NaN gram__CO2 = g__HFC143
+metric_ton__HFC143 = 1E+6 gram__HFC143 = t__HFC143
+
+gram__HFC143a = NaN gram__CO2 = g__HFC143a
+metric_ton__HFC143a = 1E+6 gram__HFC143a = t__HFC143a
+
+gram__HFC152 = NaN gram__CO2 = g__HFC152
+metric_ton__HFC152 = 1E+6 gram__HFC152 = t__HFC152
+
+gram__HFC152a = NaN gram__CO2 = g__HFC152a
+metric_ton__HFC152a = 1E+6 gram__HFC152a = t__HFC152a
+
+gram__HFC161 = NaN gram__CO2 = g__HFC161
+metric_ton__HFC161 = 1E+6 gram__HFC161 = t__HFC161
+
+gram__HFC227ea = NaN gram__CO2 = g__HFC227ea
+metric_ton__HFC227ea = 1E+6 gram__HFC227ea = t__HFC227ea
+
+gram__HFC23 = NaN gram__CO2 = g__HFC23
+metric_ton__HFC23 = 1E+6 gram__HFC23 = t__HFC23
+
+gram__HFC236cb = NaN gram__CO2 = g__HFC236cb
+metric_ton__HFC236cb = 1E+6 gram__HFC236cb = t__HFC236cb
+
+gram__HFC236ea = NaN gram__CO2 = g__HFC236ea
+metric_ton__HFC236ea = 1E+6 gram__HFC236ea = t__HFC236ea
+
+gram__HFC236fa = NaN gram__CO2 = g__HFC236fa
+metric_ton__HFC236fa = 1E+6 gram__HFC236fa = t__HFC236fa
+
+gram__HFC245ca = NaN gram__CO2 = g__HFC245ca
+metric_ton__HFC245ca = 1E+6 gram__HFC245ca = t__HFC245ca
+
+gram__HFC245fa = NaN gram__CO2 = g__HFC245fa
+metric_ton__HFC245fa = 1E+6 gram__HFC245fa = t__HFC245fa
+
+gram__HFC32 = NaN gram__CO2 = g__HFC32
+metric_ton__HFC32 = 1E+6 gram__HFC32 = t__HFC32
+
+gram__HFC365mfc = NaN gram__CO2 = g__HFC365mfc
+metric_ton__HFC365mfc = 1E+6 gram__HFC365mfc = t__HFC365mfc
+
+gram__HFC41 = NaN gram__CO2 = g__HFC41
+metric_ton__HFC41 = 1E+6 gram__HFC41 = t__HFC41
+
+gram__HFC4310mee = NaN gram__CO2 = g__HFC4310mee
+metric_ton__HFC4310mee = 1E+6 gram__HFC4310mee = t__HFC4310mee
+
+gram__HFE125 = NaN gram__CO2 = g__HFE125
+metric_ton__HFE125 = 1E+6 gram__HFE125 = t__HFE125
+
+gram__HFE134 = NaN gram__CO2 = g__HFE134
+metric_ton__HFE134 = 1E+6 gram__HFE134 = t__HFE134
+
+gram__HFE143a = NaN gram__CO2 = g__HFE143a
+metric_ton__HFE143a = 1E+6 gram__HFE143a = t__HFE143a
+
+gram__HFE227ea = NaN gram__CO2 = g__HFE227ea
+metric_ton__HFE227ea = 1E+6 gram__HFE227ea = t__HFE227ea
+
+gram__HFE236ca12 = NaN gram__CO2 = g__HFE236ca12
+metric_ton__HFE236ca12 = 1E+6 gram__HFE236ca12 = t__HFE236ca12
+
+gram__HFE236ea2 = NaN gram__CO2 = g__HFE236ea2
+metric_ton__HFE236ea2 = 1E+6 gram__HFE236ea2 = t__HFE236ea2
+
+gram__HFE236fa = NaN gram__CO2 = g__HFE236fa
+metric_ton__HFE236fa = 1E+6 gram__HFE236fa = t__HFE236fa
+
+gram__HFE245cb2 = NaN gram__CO2 = g__HFE245cb2
+metric_ton__HFE245cb2 = 1E+6 gram__HFE245cb2 = t__HFE245cb2
+
+gram__HFE245fa1 = NaN gram__CO2 = g__HFE245fa1
+metric_ton__HFE245fa1 = 1E+6 gram__HFE245fa1 = t__HFE245fa1
+
+gram__HFE245fa2 = NaN gram__CO2 = g__HFE245fa2
+metric_ton__HFE245fa2 = 1E+6 gram__HFE245fa2 = t__HFE245fa2
+
+gram__HFE254cb2 = NaN gram__CO2 = g__HFE254cb2
+metric_ton__HFE254cb2 = 1E+6 gram__HFE254cb2 = t__HFE254cb2
+
+gram__HFE263fb2 = NaN gram__CO2 = g__HFE263fb2
+metric_ton__HFE263fb2 = 1E+6 gram__HFE263fb2 = t__HFE263fb2
+
+gram__HFE329mcc2 = NaN gram__CO2 = g__HFE329mcc2
+metric_ton__HFE329mcc2 = 1E+6 gram__HFE329mcc2 = t__HFE329mcc2
+
+gram__HFE338mcf2 = NaN gram__CO2 = g__HFE338mcf2
+metric_ton__HFE338mcf2 = 1E+6 gram__HFE338mcf2 = t__HFE338mcf2
+
+gram__HFE338pcc13 = NaN gram__CO2 = g__HFE338pcc13
+metric_ton__HFE338pcc13 = 1E+6 gram__HFE338pcc13 = t__HFE338pcc13
+
+gram__HFE347mcc3 = NaN gram__CO2 = g__HFE347mcc3
+metric_ton__HFE347mcc3 = 1E+6 gram__HFE347mcc3 = t__HFE347mcc3
+
+gram__HFE347mcf2 = NaN gram__CO2 = g__HFE347mcf2
+metric_ton__HFE347mcf2 = 1E+6 gram__HFE347mcf2 = t__HFE347mcf2
+
+gram__HFE347pcf2 = NaN gram__CO2 = g__HFE347pcf2
+metric_ton__HFE347pcf2 = 1E+6 gram__HFE347pcf2 = t__HFE347pcf2
+
+gram__HFE356mec3 = NaN gram__CO2 = g__HFE356mec3
+metric_ton__HFE356mec3 = 1E+6 gram__HFE356mec3 = t__HFE356mec3
+
+gram__HFE356pcc3 = NaN gram__CO2 = g__HFE356pcc3
+metric_ton__HFE356pcc3 = 1E+6 gram__HFE356pcc3 = t__HFE356pcc3
+
+gram__HFE356pcf2 = NaN gram__CO2 = g__HFE356pcf2
+metric_ton__HFE356pcf2 = 1E+6 gram__HFE356pcf2 = t__HFE356pcf2
+
+gram__HFE356pcf3 = NaN gram__CO2 = g__HFE356pcf3
+metric_ton__HFE356pcf3 = 1E+6 gram__HFE356pcf3 = t__HFE356pcf3
+
+gram__HFE365mcf3 = NaN gram__CO2 = g__HFE365mcf3
+metric_ton__HFE365mcf3 = 1E+6 gram__HFE365mcf3 = t__HFE365mcf3
+
+gram__HFE374pc2 = NaN gram__CO2 = g__HFE374pc2
+metric_ton__HFE374pc2 = 1E+6 gram__HFE374pc2 = t__HFE374pc2
+
+gram__HFE4310pccc124 = NaN gram__CO2 = g__HFE4310pccc124
+metric_ton__HFE4310pccc124 = 1E+6 gram__HFE4310pccc124 = t__HFE4310pccc124
+
+gram__HFE569sf2 = NaN gram__CO2 = g__HFE569sf2
+metric_ton__HFE569sf2 = 1E+6 gram__HFE569sf2 = t__HFE569sf2
+
+gram__HFE7100 = NaN gram__CO2 = g__HFE7100
+metric_ton__HFE7100 = 1E+6 gram__HFE7100 = t__HFE7100
+
+gram__HFE7200 = NaN gram__CO2 = g__HFE7200
+metric_ton__HFE7200 = 1E+6 gram__HFE7200 = t__HFE7200
+
+gram__HG01 = NaN gram__CO2 = g__HG01
+metric_ton__HG01 = 1E+6 gram__HG01 = t__HG01
+
+gram__HG10 = NaN gram__CO2 = g__HG10
+metric_ton__HG10 = 1E+6 gram__HG10 = t__HG10
+
+gram__HGalden1040x = NaN gram__CO2 = g__HGalden1040x
+metric_ton__HGalden1040x = 1E+6 gram__HGalden1040x = t__HGalden1040x
+
+gram__Halon1201 = NaN gram__CO2 = g__Halon1201
+metric_ton__Halon1201 = 1E+6 gram__Halon1201 = t__Halon1201
+
+gram__Halon1202 = NaN gram__CO2 = g__Halon1202
+metric_ton__Halon1202 = 1E+6 gram__Halon1202 = t__Halon1202
+
+gram__Halon1211 = NaN gram__CO2 = g__Halon1211
+metric_ton__Halon1211 = 1E+6 gram__Halon1211 = t__Halon1211
+
+gram__Halon1301 = NaN gram__CO2 = g__Halon1301
+metric_ton__Halon1301 = 1E+6 gram__Halon1301 = t__Halon1301
+
+gram__Halon2402 = NaN gram__CO2 = g__Halon2402
+metric_ton__Halon2402 = 1E+6 gram__Halon2402 = t__Halon2402
+
+gram__N2O = NaN gram__CO2 = g__N2O
+metric_ton__N2O = 1E+6 gram__N2O = t__N2O
+
+gram__NF3 = NaN gram__CO2 = g__NF3
+metric_ton__NF3 = 1E+6 gram__NF3 = t__NF3
+
+gram__PFPMIE = NaN gram__CO2 = g__PFPMIE
+metric_ton__PFPMIE = 1E+6 gram__PFPMIE = t__PFPMIE
+
+gram__SF5CF3 = NaN gram__CO2 = g__SF5CF3
+metric_ton__SF5CF3 = 1E+6 gram__SF5CF3 = t__SF5CF3
+
+gram__SF6 = NaN gram__CO2 = g__SF6
+metric_ton__SF6 = 1E+6 gram__SF6 = t__SF6
+
+gram__SO2F2 = NaN gram__CO2 = g__SO2F2
+metric_ton__SO2F2 = 1E+6 gram__SO2F2 = t__SO2F2
+
+gram__cC3F6 = NaN gram__CO2 = g__cC3F6
+metric_ton__cC3F6 = 1E+6 gram__cC3F6 = t__cC3F6
+
+gram__cC4F8 = NaN gram__CO2 = g__cC4F8
+metric_ton__cC4F8 = 1E+6 gram__cC4F8 = t__cC4F8
+
+@import SARGWP100.txt
+@import TARGWP100.txt
+@import AR4GWP100.txt
+@import AR5GWP100.txt
+@import AR5CCFGWP100.txt
+@import AR6GWP100.txt
+@import TARGWP20.txt
+@import AR6GWP20.txt
+@import TARGWP500.txt
+@import AR6GWP500.txt
+@import AR6GTP100.txt

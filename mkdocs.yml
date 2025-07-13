@@ -1,0 +1,72 @@
+site_name: CET Units Documentation
+site_url: https://philippverpoort.github.io/cet-units/
+repo_name: PhilippVerpoort/cet-units
+repo_url: https://github.com/PhilippVerpoort/cet-units/
+
+copyright: © P.C. Verpoort 2026 | <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+
+theme:
+  logo: assets/logos/logo-header.svg
+  favicon: assets/logos/favicon.ico
+  palette:
+    primary: custom
+  features:
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
+    # - announce.dismiss
+  icon:
+    repo: fontawesome/brands/github
+  name: material
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+extra:
+  version:
+    provider: mike
+
+extra_css:
+  - assets/css/extra.css
+  - assets/css/theme-toggle.css
+
+extra_javascript:
+- javascripts/mathjax.js
+- https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+- attr_list
+- tables
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: yes
+- pymdownx.snippets:
+    base_path: docs
+- pymdownx.arithmatex:
+    generic: yes
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+- mkdocs-jupyter:
+    execute: false
+    allow_errors: false
+    include_requirejs: true
+    show_input: False
+    no_input: True
+- search
+
+nav:
+- Home: index.md

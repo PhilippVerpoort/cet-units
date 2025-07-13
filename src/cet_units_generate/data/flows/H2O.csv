@@ -1,0 +1,7 @@
+attribute,value,source,comment
+name,Water,,
+density_norm,998.21 kg/m³,Lemmon-1997,
+density_std,999.84 kg/m³,Lemmon-1997,
+c_ratio,0.0,,Based on stoichiometry.
+h_ratio,0.1111,,Based on stoichiometry.
+o_ratio,0.8990,,Based on stoichiometry.
