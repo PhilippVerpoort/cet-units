@@ -35,7 +35,9 @@ theme:
 
 extra:
   version:
+    default: latest
     provider: mike
+    alias: true
 
 extra_css:
   - assets/css/extra.css
