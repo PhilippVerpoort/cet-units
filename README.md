@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1019168167.svg)](https://doi.org/10.5281/zenodo.18166469)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Documentation Status](https://img.shields.io/badge/docs-online-blue)](https://philippverpoort.github.io/cet-units/latest/)
 [![CI](https://github.com/PhilippVerpoort/cet-units/actions/workflows/ci.yml/badge.svg)](https://github.com/PhilippVerpoort/cet-units/actions/workflows/ci.yml)
@@ -83,6 +84,11 @@ The conversion factors and bibliographic information for their sources are store
 * Built on top of [pint](https://github.com/hgrecco/pint). Thank you to its contributors.
 * Inspired by the [iam-units](https://github.com/IAMconsortium/units/) package.
 * This package was developed as part of the Ariadne project with funding from the German Federal Ministry of Research, Technology and Space (grant nos. 03SFK5A, 03SFK5A0-2).
+
+## How to cite
+
+* To cite a release (recommended), please refer to a specific version archived on [Zenodo](https://zenodo.org/doi/10.5281/zenodo.18166469).
+* To cite a specific commit, please refer to the citation information in [`CITATION.cff`](CITATION.cff) and include the commit hash.
 
 ## Licence
 
