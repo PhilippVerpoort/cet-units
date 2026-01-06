@@ -11,6 +11,13 @@ hide:
 
 # CET Units: Climate and Energy Transition Units
 
+[![DOI](https://zenodo.org/badge/1019168167.svg)](https://doi.org/10.5281/zenodo.18166469)
+[![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PhilippVerpoort/cet-units/blob/main/LICENSE.md)
+[![Documentation Status](https://img.shields.io/badge/docs-online-blue)](https://philippverpoort.github.io/cet-units/latest/)
+[![CI](https://github.com/PhilippVerpoort/cet-units/actions/workflows/ci.yml/badge.svg)](https://github.com/PhilippVerpoort/cet-units/actions/workflows/ci.yml)
+[![Code style: Ruff](https://img.shields.io/badge/Code%20Style-Ruff-109cf5?logo=ruff&logoColor=white)](https://github.com/astral-sh/ruff)
+![Python versions](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue)
+
 CET Units stands for **Climate and Energy Transition Units**. It is a Python package built on top of [pint](https://github.com/hgrecco/pint). It defines units that help analysing common problems in energy systems, industrial ecology, and climate mitigation.
 
 ## Installation
