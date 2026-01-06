@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4800"
+   height="1024"
+   viewBox="0 0 1304.5155 278.29664"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="logo-template.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.13653694"
+     inkscape:cx="2270.4478"
+     inkscape:cy="399.15938"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="1920"
+     inkscape:window-y="420"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <text
+     xml:space="preserve"
+     style="font-size:268.942px;line-height:1;font-family:Gudea;-inkscape-font-specification:Gudea;text-align:start;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#686c70;fill-opacity:1;stroke-width:0.513588;stroke-dashoffset:22.6771"
+     x="338.08688"
+     y="235.1608"
+     id="text1"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:268.942px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Condensed';fill:#686c70;fill-opacity:1;stroke-width:0.513588"
+       x="338.08688"
+       y="235.1608">CET <tspan
+   style="fill:#f25b28;fill-opacity:1"
+   id="tspan3">U</tspan>nits</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:217.419px;line-height:1;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#686c70;fill-opacity:1;stroke-width:0.513588;stroke-dashoffset:22.6771"
+     x="413.79968"
+     y="598.17987"
+     id="text2"><tspan
+       sodipodi:role="line"
+       id="tspan2"
+       style="stroke-width:0.513589"
+       x="413.79968"
+       y="598.17987" /></text>
+  <path
+     style="font-stretch:condensed;font-size:244.597px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Condensed';letter-spacing:0px;word-spacing:0px;fill:#f25b28;stroke-width:0.513588;stroke-dashoffset:22.6771"
+     d="M 192.59264,169.33877 Q 192.59264,198.20121 179.13981,213.36623 165.68697,228.53124 139.0259,228.53124 112.85402,228.53124 99.15659,213.61082 85.703755,198.44581 85.703755,169.33877 V 51.443014 H 106.7391 V 169.58336 Q 106.7391,190.12951 115.05539,199.91339 123.37169,209.69727 139.51509,209.69727 171.3127,209.69727 171.3127,169.33877 V 51.443014 H 192.59264 Z"
+     id="text5"
+     aria-label="U" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#686c70;stroke-dashoffset:22.6771;enable-background:accumulate;stop-color:#000000"
+     d="M 0,18.938359 V 259.35828 H 54.355469 V 233.67859 H 25.679687 V 44.616095 H 54.355469 V 18.938359 Z"
+     id="path3" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#686c70;stroke-dashoffset:22.6771;enable-background:accumulate;stop-color:#000000"
+     d="M 223.94141,18.938359 V 44.616095 H 252.61719 V 233.67859 H 223.94141 V 259.35828 H 278.29687 V 18.938359 Z"
+     id="path5" />
+</svg>

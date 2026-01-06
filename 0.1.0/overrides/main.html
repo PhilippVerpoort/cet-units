@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block outdated %}
+  You're not viewing the latest version.
+  <a href="{{ '../' ~ base_url }}">
+
+
+    <strong>Click here to go to latest.</strong>
+  </a>
+{% endblock %}
+
+{% block announce %}
+  <p align="center">POSTED v0.4.0 was released on Jan 6th, 2026! ✨</p>
+{% endblock %}
