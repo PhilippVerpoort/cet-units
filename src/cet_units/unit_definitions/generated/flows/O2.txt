@@ -1,0 +1,19 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_O2 = [amount_of_oxygen] = g_O2
+
+metric_ton_O2 = 1e+06 * g_O2 = t_O2
+
+gram_O2_O = 1 * g_O2 = g_O2_O
+metric_ton_O2_O = 1e+06 * g_O2 = t_O2_O
+ton_O2_O = 9.07e+05 * g_O2 = ton_O2_O
+
+
+cubic_meter_O2_norm = 1.33e+03 * g_O2 = cu_m_O2_norm
+cubic_meter_O2_std = 1.43e+03 * g_O2 = cu_m_O2_std
+cubic_foot_O2_norm = 37.7 * g_O2 = cu_ft_O2_norm
+cubic_foot_O2_std = 40.5 * g_O2 = cu_ft_O2_std
+billion_cubic_meter_O2_norm = 1.33e+12 * g_O2 = bcm_O2_norm
+billion_cubic_meter_O2_std = 1.43e+12 * g_O2 = bcm_O2_std
+liter_O2_norm = 1.33 * g_O2 = l_O2_norm
+liter_O2_std = 1.43 * g_O2 = l_O2_std

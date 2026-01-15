@@ -1,0 +1,7 @@
+attribute,value,source,comment
+name,Oxygen,,
+density_norm,1.3312 kg/m³,Lemmon-1997,
+density_std,1.4290 kg/m³,Lemmon-1997,
+c_ratio,0.0,,Based on stoichiometry.
+h_ratio,0.0,,Based on stoichiometry.
+o_ratio,1.0,,Based on stoichiometry.
