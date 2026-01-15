@@ -1,0 +1,21 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_coal = [amount_of_coal] = g_coal
+
+metric_ton_coal = 1e+06 * g_coal = t_coal
+
+gram_coal_C = 1.71 * g_coal = g_coal_C
+metric_ton_coal_C = 1.71e+06 * g_coal = t_coal_C
+ton_coal_C = 1.55e+06 * g_coal = ton_coal_C
+
+joule_coal_LHV = 4.4e-05 * g_coal = J_coal_LHV
+joule_coal_HHV = 4.17e-05 * g_coal = J_coal_HHV
+watt_hour_coal_LHV = 0.158 * g_coal = Wh_coal_LHV
+watt_hour_coal_HHV = 0.15 * g_coal = Wh_coal_HHV
+british_thermal_unit_coal_LHV = 0.0464 * g_coal = Btu_coal_LHV
+british_thermal_unit_coal_HHV = 0.044 * g_coal = Btu_coal_HHV
+international_british_thermal_unit_coal_LHV = 0.0464 * g_coal = Btu_it_coal_LHV
+international_british_thermal_unit_coal_HHV = 0.044 * g_coal = Btu_it_coal_HHV
+thermochemical_british_thermal_unit_coal_LHV = 0.0464 * g_coal = Btu_th_coal_LHV
+thermochemical_british_thermal_unit_coal_HHV = 0.044 * g_coal = Btu_th_coal_HHV
+

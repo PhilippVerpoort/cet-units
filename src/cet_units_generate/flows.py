@@ -20,9 +20,6 @@ def generate_units_flows(p: Path):
     for flow_path in FLOWS_DATA_PATH.glob("*.csv"):
         flow_id = flow_path.stem
 
-        if flow_id not in ["H2", "NG", "NH3", "MeOH", "H2O"]:
-            continue
-
         with open(flow_path) as file_stream:
             read = csv_reader(
                 file_stream,
