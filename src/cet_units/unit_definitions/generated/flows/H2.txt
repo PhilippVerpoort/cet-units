@@ -22,6 +22,9 @@ international_british_thermal_unit_H2_HHV = 0.00743 * g_H2 = Btu_it_H2_HHV
 thermochemical_british_thermal_unit_H2_LHV = 0.00879 * g_H2 = Btu_th_H2_LHV
 thermochemical_british_thermal_unit_H2_HHV = 0.00743 * g_H2 = Btu_th_H2_HHV
 
+watt_H2_LHV = joule_H2_LHV / second = W_H2_LHV
+watt_H2_HHV = joule_H2_HHV / second = W_H2_HHV
+
 cubic_meter_H2_norm = 83.8 * g_H2 = cu_m_H2_norm
 cubic_meter_H2_std = 89.9 * g_H2 = cu_m_H2_std
 cubic_foot_H2_norm = 2.37 * g_H2 = cu_ft_H2_norm

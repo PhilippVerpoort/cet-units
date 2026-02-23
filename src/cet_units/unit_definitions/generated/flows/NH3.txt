@@ -26,6 +26,9 @@ international_british_thermal_unit_NH3_HHV = 0.0469 * g_NH3 = Btu_it_NH3_HHV
 thermochemical_british_thermal_unit_NH3_LHV = 0.0558 * g_NH3 = Btu_th_NH3_LHV
 thermochemical_british_thermal_unit_NH3_HHV = 0.0469 * g_NH3 = Btu_th_NH3_HHV
 
+watt_NH3_LHV = joule_NH3_LHV / second = W_NH3_LHV
+watt_NH3_HHV = joule_NH3_HHV / second = W_NH3_HHV
+
 cubic_meter_NH3_norm = 716 * g_NH3 = cu_m_NH3_norm
 cubic_meter_NH3_std = 0.772 cubic_meter / gram * g_NH3 = cu_m_NH3_std
 cubic_foot_NH3_norm = 20.3 * g_NH3 = cu_ft_NH3_norm

@@ -16,6 +16,9 @@ pound_CO2_C = 1.66e+03 * g_CO2 = lb_CO2_C
 pound_CO2_O = 624 * g_CO2 = lb_CO2_O
 
 
+watt_CO2_LHV = joule_CO2_LHV / second = W_CO2_LHV
+watt_CO2_HHV = joule_CO2_HHV / second = W_CO2_HHV
+
 cubic_meter_CO2_norm = 1.84e+03 * g_CO2 = cu_m_CO2_norm
 cubic_meter_CO2_std = 1.98e+03 * g_CO2 = cu_m_CO2_std
 cubic_foot_CO2_norm = 52.1 * g_CO2 = cu_ft_CO2_norm

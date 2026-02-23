@@ -22,3 +22,6 @@ international_british_thermal_unit_coal_HHV = 0.044 * g_coal = Btu_it_coal_HHV
 thermochemical_british_thermal_unit_coal_LHV = 0.0464 * g_coal = Btu_th_coal_LHV
 thermochemical_british_thermal_unit_coal_HHV = 0.044 * g_coal = Btu_th_coal_HHV
 
+watt_coal_LHV = joule_coal_LHV / second = W_coal_LHV
+watt_coal_HHV = joule_coal_HHV / second = W_coal_HHV
+

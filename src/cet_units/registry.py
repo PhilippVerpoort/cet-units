@@ -208,6 +208,18 @@ class CETUnitRegistry(UnitRegistry):
                     defs.append(d)
             defs.append("")
 
+            # Special treatment for power (energy per time).
+            if dim == "energy":
+                for var in variants:
+                    d = (
+                        f"watt_{flow_id}_{var} = "
+                        f"joule_{flow_id}_{var} / second = "
+                        f"W_{flow_id}_{var}"
+                    )
+                    print(d)
+                    defs.append(d)
+                defs.append("")
+
         ret = "\n".join(defs)
 
         if print_defs:

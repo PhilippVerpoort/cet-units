@@ -22,6 +22,9 @@ international_british_thermal_unit_crude_oil_HHV = 0.0232 * g_crude_oil = Btu_it
 thermochemical_british_thermal_unit_crude_oil_LHV = 0.0247 * g_crude_oil = Btu_th_crude_oil_LHV
 thermochemical_british_thermal_unit_crude_oil_HHV = 0.0232 * g_crude_oil = Btu_th_crude_oil_HHV
 
+watt_crude_oil_LHV = joule_crude_oil_LHV / second = W_crude_oil_LHV
+watt_crude_oil_HHV = joule_crude_oil_HHV / second = W_crude_oil_HHV
+
 cubic_meter_crude_oil_norm = 8.47e+05 * g_crude_oil = cu_m_crude_oil_norm
 cubic_meter_crude_oil_std = 8.47e+05 * g_crude_oil = cu_m_crude_oil_std
 cubic_foot_crude_oil_norm = 2.4e+04 * g_crude_oil = cu_ft_crude_oil_norm

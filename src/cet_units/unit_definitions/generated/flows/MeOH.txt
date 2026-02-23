@@ -30,6 +30,9 @@ international_british_thermal_unit_MeOH_HHV = 0.0461 * g_MeOH = Btu_it_MeOH_HHV
 thermochemical_british_thermal_unit_MeOH_LHV = 0.0525 * g_MeOH = Btu_th_MeOH_LHV
 thermochemical_british_thermal_unit_MeOH_HHV = 0.0461 * g_MeOH = Btu_th_MeOH_HHV
 
+watt_MeOH_LHV = joule_MeOH_LHV / second = W_MeOH_LHV
+watt_MeOH_HHV = joule_MeOH_HHV / second = W_MeOH_HHV
+
 cubic_meter_MeOH_norm = 7.91e+05 * g_MeOH = cu_m_MeOH_norm
 cubic_meter_MeOH_std = 810 cubic_meter / gram * g_MeOH = cu_m_MeOH_std
 cubic_foot_MeOH_norm = 2.24e+04 * g_MeOH = cu_ft_MeOH_norm

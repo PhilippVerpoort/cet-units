@@ -26,6 +26,9 @@ international_british_thermal_unit_CH4_HHV = 0.019 * g_CH4 = Btu_it_CH4_HHV
 thermochemical_british_thermal_unit_CH4_LHV = 0.0211 * g_CH4 = Btu_th_CH4_LHV
 thermochemical_british_thermal_unit_CH4_HHV = 0.019 * g_CH4 = Btu_th_CH4_HHV
 
+watt_CH4_LHV = joule_CH4_LHV / second = W_CH4_LHV
+watt_CH4_HHV = joule_CH4_HHV / second = W_CH4_HHV
+
 cubic_meter_CH4_norm = 668 * g_CH4 = cu_m_CH4_norm
 cubic_meter_CH4_std = 0.717 cubic_meter / gram * g_CH4 = cu_m_CH4_std
 cubic_foot_CH4_norm = 18.9 * g_CH4 = cu_ft_CH4_norm

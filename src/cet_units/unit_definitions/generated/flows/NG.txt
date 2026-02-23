@@ -22,6 +22,9 @@ international_british_thermal_unit_NG_HHV = 0.0202 * g_NG = Btu_it_NG_HHV
 thermochemical_british_thermal_unit_NG_LHV = 0.0224 * g_NG = Btu_th_NG_LHV
 thermochemical_british_thermal_unit_NG_HHV = 0.0202 * g_NG = Btu_th_NG_HHV
 
+watt_NG_LHV = joule_NG_LHV / second = W_NG_LHV
+watt_NG_HHV = joule_NG_HHV / second = W_NG_HHV
+
 cubic_meter_NG_norm = 777 * g_NG = cu_m_NG_norm
 cubic_meter_NG_std = 777 * g_NG = cu_m_NG_std
 cubic_foot_NG_norm = 22 * g_NG = cu_ft_NG_norm

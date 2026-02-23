@@ -12,6 +12,9 @@ ton_O2_O = 9.07e+05 * g_O2 = ton_O2_O
 pound_O2_O = 454 * g_O2 = lb_O2_O
 
 
+watt_O2_LHV = joule_O2_LHV / second = W_O2_LHV
+watt_O2_HHV = joule_O2_HHV / second = W_O2_HHV
+
 cubic_meter_O2_norm = 1.33e+03 * g_O2 = cu_m_O2_norm
 cubic_meter_O2_std = 1.43e+03 * g_O2 = cu_m_O2_std
 cubic_foot_O2_norm = 37.7 * g_O2 = cu_ft_O2_norm

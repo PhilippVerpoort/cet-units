@@ -16,6 +16,9 @@ pound_H2O_H = 4.08e+03 * g_H2O = lb_H2O_H
 pound_H2O_O = 505 * g_H2O = lb_H2O_O
 
 
+watt_H2O_LHV = joule_H2O_LHV / second = W_H2O_LHV
+watt_H2O_HHV = joule_H2O_HHV / second = W_H2O_HHV
+
 cubic_meter_H2O_norm = 9.98e+05 * g_H2O = cu_m_H2O_norm
 cubic_meter_H2O_std = 1e+06 * g_H2O = cu_m_H2O_std
 cubic_foot_H2O_norm = 2.83e+04 * g_H2O = cu_ft_H2O_norm
