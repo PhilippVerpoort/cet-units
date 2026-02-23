@@ -20,4 +20,10 @@ Unit = U = ureg.Unit
 set_application_registry(ureg)
 
 
-__all__ = ["ureg", "Q", "U"]
+__all__ = [
+    "Q",
+    "Quantity",
+    "U",
+    "Unit",
+    "ureg",
+]

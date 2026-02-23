@@ -3,6 +3,7 @@
 gram_H2 = [amount_of_hydrogen] = g_H2
 
 metric_ton_H2 = 1e+06 * g_H2 = t_H2
+ton_H2 = 9.07e+05 * g_H2 = ton_H2
 
 gram_H2_H = 1 * g_H2 = g_H2_H
 metric_ton_H2_H = 1e+06 * g_H2 = t_H2_H

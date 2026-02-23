@@ -3,6 +3,7 @@
 gram_CH4 = [amount_of_methane] = g_CH4
 
 metric_ton_CH4 = 1e+06 * g_CH4 = t_CH4
+ton_CH4 = 9.07e+05 * g_CH4 = ton_CH4
 
 gram_CH4_C = 1.33 * g_CH4 = g_CH4_C
 gram_CH4_H = 4 * g_CH4 = g_CH4_H

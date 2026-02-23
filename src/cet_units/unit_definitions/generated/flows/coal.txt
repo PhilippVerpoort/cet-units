@@ -3,6 +3,7 @@
 gram_coal = [amount_of_coal] = g_coal
 
 metric_ton_coal = 1e+06 * g_coal = t_coal
+ton_coal = 9.07e+05 * g_coal = ton_coal
 
 gram_coal_C = 1.71 * g_coal = g_coal_C
 metric_ton_coal_C = 1.71e+06 * g_coal = t_coal_C

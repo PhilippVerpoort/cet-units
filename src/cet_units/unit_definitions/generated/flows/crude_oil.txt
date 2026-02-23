@@ -3,6 +3,7 @@
 gram_crude_oil = [amount_of_crude_oil] = g_crude_oil
 
 metric_ton_crude_oil = 1e+06 * g_crude_oil = t_crude_oil
+ton_crude_oil = 9.07e+05 * g_crude_oil = ton_crude_oil
 
 gram_crude_oil_C = 1.17 * g_crude_oil = g_crude_oil_C
 metric_ton_crude_oil_C = 1.17e+06 * g_crude_oil = t_crude_oil_C

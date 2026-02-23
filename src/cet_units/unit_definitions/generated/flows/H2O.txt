@@ -3,6 +3,7 @@
 gram_H2O = [amount_of_water] = g_H2O
 
 metric_ton_H2O = 1e+06 * g_H2O = t_H2O
+ton_H2O = 9.07e+05 * g_H2O = ton_H2O
 
 gram_H2O_H = 9 * g_H2O = g_H2O_H
 gram_H2O_O = 1.11 * g_H2O = g_H2O_O

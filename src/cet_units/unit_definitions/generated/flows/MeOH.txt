@@ -3,6 +3,7 @@
 gram_MeOH = [amount_of_methanol] = g_MeOH
 
 metric_ton_MeOH = 1e+06 * g_MeOH = t_MeOH
+ton_MeOH = 9.07e+05 * g_MeOH = ton_MeOH
 
 gram_MeOH_C = 2.67 * g_MeOH = g_MeOH_C
 gram_MeOH_H = 7.94 * g_MeOH = g_MeOH_H

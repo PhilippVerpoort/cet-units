@@ -3,6 +3,7 @@
 gram_NH3 = [amount_of_ammonia] = g_NH3
 
 metric_ton_NH3 = 1e+06 * g_NH3 = t_NH3
+ton_NH3 = 9.07e+05 * g_NH3 = ton_NH3
 
 gram_NH3_H = 5.67 * g_NH3 = g_NH3_H
 gram_NH3_N = 1.21 * g_NH3 = g_NH3_N

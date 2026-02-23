@@ -149,20 +149,23 @@ class CETUnitRegistry(UnitRegistry):
         # List of definitions that will be returned.
         defs = []
 
-        # Define base dimension and base unit.
+        # Define base unit and base dimension.
         bu = self.Unit("gram")
-        bd = bu.dimensionality
+        bd = "mass"
+        assert self.Quantity(str(bu)).check(f"[{bd}]")
+
+        # Define name of dimension for new amount units.
         dim = flow_specs["name"].lower().replace(" ", "_")
+
+        # Define base unit.
         defs.append(f"{bu:P}_{flow_id} = [amount_of_{dim}] = {bu:~}_{flow_id}")
         defs.append("")
 
         # Define units for base dimension.
-        all_units = [
-            unit for units in FLOW_EXTEND_UNITS.values() for unit in units
-        ]
-        for u in self.get_compatible_units(bd):
-            if u == bu or u not in all_units:
+        for u in FLOW_EXTEND_UNITS[bd]:
+            if u == bu:
                 continue
+            u = self.Unit(u)
             conv_fac = self.Quantity(f"{u:~}/{bu:~}").to_reduced_units()
             conv_fac = conv_fac.m if conv_fac.dimensionless else conv_fac
             defs.append(
