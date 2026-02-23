@@ -4,10 +4,12 @@ gram_O2 = [amount_of_oxygen] = g_O2
 
 metric_ton_O2 = 1e+06 * g_O2 = t_O2
 ton_O2 = 9.07e+05 * g_O2 = ton_O2
+pound_O2 = 454 * g_O2 = lb_O2
 
 gram_O2_O = 1 * g_O2 = g_O2_O
 metric_ton_O2_O = 1e+06 * g_O2 = t_O2_O
 ton_O2_O = 9.07e+05 * g_O2 = ton_O2_O
+pound_O2_O = 454 * g_O2 = lb_O2_O
 
 
 cubic_meter_O2_norm = 1.33e+03 * g_O2 = cu_m_O2_norm

@@ -4,6 +4,7 @@ gram_NH3 = [amount_of_ammonia] = g_NH3
 
 metric_ton_NH3 = 1e+06 * g_NH3 = t_NH3
 ton_NH3 = 9.07e+05 * g_NH3 = ton_NH3
+pound_NH3 = 454 * g_NH3 = lb_NH3
 
 gram_NH3_H = 5.67 * g_NH3 = g_NH3_H
 gram_NH3_N = 1.21 * g_NH3 = g_NH3_N
@@ -11,6 +12,8 @@ metric_ton_NH3_H = 5.67e+06 * g_NH3 = t_NH3_H
 metric_ton_NH3_N = 1.21e+06 * g_NH3 = t_NH3_N
 ton_NH3_H = 5.14e+06 * g_NH3 = ton_NH3_H
 ton_NH3_N = 1.1e+06 * g_NH3 = ton_NH3_N
+pound_NH3_H = 2.57e+03 * g_NH3 = lb_NH3_H
+pound_NH3_N = 551 * g_NH3 = lb_NH3_N
 
 joule_NH3_LHV = 5.29e-05 * g_NH3 = J_NH3_LHV
 joule_NH3_HHV = 4.44e-05 * g_NH3 = J_NH3_HHV

@@ -29,6 +29,7 @@ FLOW_EXTEND_UNITS = {
         "gram",
         "metric_ton",
         "ton",
+        "pound",
     ],
     "energy": [
         "joule",

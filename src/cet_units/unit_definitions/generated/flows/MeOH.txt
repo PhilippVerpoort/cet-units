@@ -4,6 +4,7 @@ gram_MeOH = [amount_of_methanol] = g_MeOH
 
 metric_ton_MeOH = 1e+06 * g_MeOH = t_MeOH
 ton_MeOH = 9.07e+05 * g_MeOH = ton_MeOH
+pound_MeOH = 454 * g_MeOH = lb_MeOH
 
 gram_MeOH_C = 2.67 * g_MeOH = g_MeOH_C
 gram_MeOH_H = 7.94 * g_MeOH = g_MeOH_H
@@ -14,6 +15,9 @@ metric_ton_MeOH_O = 2e+06 * g_MeOH = t_MeOH_O
 ton_MeOH_C = 2.42e+06 * g_MeOH = ton_MeOH_C
 ton_MeOH_H = 7.2e+06 * g_MeOH = ton_MeOH_H
 ton_MeOH_O = 1.82e+06 * g_MeOH = ton_MeOH_O
+pound_MeOH_C = 1.21e+03 * g_MeOH = lb_MeOH_C
+pound_MeOH_H = 3.6e+03 * g_MeOH = lb_MeOH_H
+pound_MeOH_O = 909 * g_MeOH = lb_MeOH_O
 
 joule_MeOH_LHV = 4.98e-05 * g_MeOH = J_MeOH_LHV
 joule_MeOH_HHV = 4.37e-05 * g_MeOH = J_MeOH_HHV

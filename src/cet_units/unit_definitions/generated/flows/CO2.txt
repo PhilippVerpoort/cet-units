@@ -4,6 +4,7 @@ gram_CO2 = [amount_of_purified_co2] = g_CO2
 
 metric_ton_CO2 = 1e+06 * g_CO2 = t_CO2
 ton_CO2 = 9.07e+05 * g_CO2 = ton_CO2
+pound_CO2 = 454 * g_CO2 = lb_CO2
 
 gram_CO2_C = 3.66 * g_CO2 = g_CO2_C
 gram_CO2_O = 1.38 * g_CO2 = g_CO2_O
@@ -11,6 +12,8 @@ metric_ton_CO2_C = 3.66e+06 * g_CO2 = t_CO2_C
 metric_ton_CO2_O = 1.38e+06 * g_CO2 = t_CO2_O
 ton_CO2_C = 3.32e+06 * g_CO2 = ton_CO2_C
 ton_CO2_O = 1.25e+06 * g_CO2 = ton_CO2_O
+pound_CO2_C = 1.66e+03 * g_CO2 = lb_CO2_C
+pound_CO2_O = 624 * g_CO2 = lb_CO2_O
 
 
 cubic_meter_CO2_norm = 1.84e+03 * g_CO2 = cu_m_CO2_norm

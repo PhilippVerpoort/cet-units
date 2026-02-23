@@ -4,6 +4,7 @@ gram_H2O = [amount_of_water] = g_H2O
 
 metric_ton_H2O = 1e+06 * g_H2O = t_H2O
 ton_H2O = 9.07e+05 * g_H2O = ton_H2O
+pound_H2O = 454 * g_H2O = lb_H2O
 
 gram_H2O_H = 9 * g_H2O = g_H2O_H
 gram_H2O_O = 1.11 * g_H2O = g_H2O_O
@@ -11,6 +12,8 @@ metric_ton_H2O_H = 9e+06 * g_H2O = t_H2O_H
 metric_ton_H2O_O = 1.11e+06 * g_H2O = t_H2O_O
 ton_H2O_H = 8.17e+06 * g_H2O = ton_H2O_H
 ton_H2O_O = 1.01e+06 * g_H2O = ton_H2O_O
+pound_H2O_H = 4.08e+03 * g_H2O = lb_H2O_H
+pound_H2O_O = 505 * g_H2O = lb_H2O_O
 
 
 cubic_meter_H2O_norm = 9.98e+05 * g_H2O = cu_m_H2O_norm

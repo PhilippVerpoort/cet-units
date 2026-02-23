@@ -4,10 +4,12 @@ gram_NG = [amount_of_natural_gas] = g_NG
 
 metric_ton_NG = 1e+06 * g_NG = t_NG
 ton_NG = 9.07e+05 * g_NG = ton_NG
+pound_NG = 454 * g_NG = lb_NG
 
 gram_NG_C = 1.38 * g_NG = g_NG_C
 metric_ton_NG_C = 1.38e+06 * g_NG = t_NG_C
 ton_NG_C = 1.25e+06 * g_NG = ton_NG_C
+pound_NG_C = 627 * g_NG = lb_NG_C
 
 joule_NG_LHV = 2.12e-05 * g_NG = J_NG_LHV
 joule_NG_HHV = 1.91e-05 * g_NG = J_NG_HHV
