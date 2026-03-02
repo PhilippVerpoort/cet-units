@@ -33,3 +33,7 @@ billion_cubic_meter_crude_oil_norm = 8.47e+14 * g_crude_oil = bcm_crude_oil_norm
 billion_cubic_meter_crude_oil_std = 8.47e+14 * g_crude_oil = bcm_crude_oil_std
 liter_crude_oil_norm = 847 * g_crude_oil = l_crude_oil_norm
 liter_crude_oil_std = 847 * g_crude_oil = l_crude_oil_std
+gallon_crude_oil_norm = 3.2e+03 * g_crude_oil = gal_crude_oil_norm
+gallon_crude_oil_std = 3.2e+03 * g_crude_oil = gal_crude_oil_std
+
+barrel_crude_oil = 42 gallon_crude_oil_norm = bbl_crude_oil

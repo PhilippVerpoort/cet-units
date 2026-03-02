@@ -41,3 +41,5 @@ billion_cubic_meter_MeOH_norm = 7.91e+14 * g_MeOH = bcm_MeOH_norm
 billion_cubic_meter_MeOH_std = 810 billion_cubic_meter / gram * g_MeOH = bcm_MeOH_std
 liter_MeOH_norm = 791 * g_MeOH = l_MeOH_norm
 liter_MeOH_std = 810 liter / gram * g_MeOH = l_MeOH_std
+gallon_MeOH_norm = 2.99e+03 * g_MeOH = gal_MeOH_norm
+gallon_MeOH_std = 810 gallon / gram * g_MeOH = gal_MeOH_std

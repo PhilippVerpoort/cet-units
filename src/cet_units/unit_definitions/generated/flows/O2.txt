@@ -23,3 +23,5 @@ billion_cubic_meter_O2_norm = 1.33e+12 * g_O2 = bcm_O2_norm
 billion_cubic_meter_O2_std = 1.43e+12 * g_O2 = bcm_O2_std
 liter_O2_norm = 1.33 * g_O2 = l_O2_norm
 liter_O2_std = 1.43 * g_O2 = l_O2_std
+gallon_O2_norm = 5.04 * g_O2 = gal_O2_norm
+gallon_O2_std = 5.41 * g_O2 = gal_O2_std

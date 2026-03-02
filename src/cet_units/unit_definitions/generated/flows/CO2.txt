@@ -27,3 +27,5 @@ billion_cubic_meter_CO2_norm = 1.84e+12 * g_CO2 = bcm_CO2_norm
 billion_cubic_meter_CO2_std = 1.98e+12 * g_CO2 = bcm_CO2_std
 liter_CO2_norm = 1.84 * g_CO2 = l_CO2_norm
 liter_CO2_std = 1.98 * g_CO2 = l_CO2_std
+gallon_CO2_norm = 6.96 * g_CO2 = gal_CO2_norm
+gallon_CO2_std = 7.48 * g_CO2 = gal_CO2_std

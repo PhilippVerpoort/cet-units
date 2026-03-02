@@ -33,3 +33,5 @@ billion_cubic_meter_NG_norm = 7.77e+11 * g_NG = bcm_NG_norm
 billion_cubic_meter_NG_std = 7.77e+11 * g_NG = bcm_NG_std
 liter_NG_norm = 0.777 * g_NG = l_NG_norm
 liter_NG_std = 0.777 * g_NG = l_NG_std
+gallon_NG_norm = 2.94 * g_NG = gal_NG_norm
+gallon_NG_std = 2.94 * g_NG = gal_NG_std

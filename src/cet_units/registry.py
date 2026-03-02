@@ -43,6 +43,7 @@ FLOW_EXTEND_UNITS = {
         "cubic_foot",
         "bcm",
         "liter",
+        "gallon",
     ],
 }
 
@@ -216,9 +217,17 @@ class CETUnitRegistry(UnitRegistry):
                         f"joule_{flow_id}_{var} / second = "
                         f"W_{flow_id}_{var}"
                     )
-                    print(d)
                     defs.append(d)
                 defs.append("")
+            if dim == "volume" and flow_id == "crude_oil":
+                d = (
+                    f"barrel_{flow_id} = "
+                    f"42 gallon_{flow_id}_norm = "
+                    f"bbl_{flow_id}"
+                )
+                defs.append(d)
+                defs.append("")
+
 
         ret = "\n".join(defs)
 

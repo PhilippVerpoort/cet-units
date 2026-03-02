@@ -37,3 +37,5 @@ billion_cubic_meter_CH4_norm = 6.68e+11 * g_CH4 = bcm_CH4_norm
 billion_cubic_meter_CH4_std = 0.717 billion_cubic_meter / gram * g_CH4 = bcm_CH4_std
 liter_CH4_norm = 0.668 * g_CH4 = l_CH4_norm
 liter_CH4_std = 0.717 liter / gram * g_CH4 = l_CH4_std
+gallon_CH4_norm = 2.53 * g_CH4 = gal_CH4_norm
+gallon_CH4_std = 0.717 gallon / gram * g_CH4 = gal_CH4_std

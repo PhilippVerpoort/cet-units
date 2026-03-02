@@ -27,3 +27,5 @@ billion_cubic_meter_H2O_norm = 9.98e+14 * g_H2O = bcm_H2O_norm
 billion_cubic_meter_H2O_std = 1e+15 * g_H2O = bcm_H2O_std
 liter_H2O_norm = 998 * g_H2O = l_H2O_norm
 liter_H2O_std = 1e+03 * g_H2O = l_H2O_std
+gallon_H2O_norm = 3.78e+03 * g_H2O = gal_H2O_norm
+gallon_H2O_std = 3.78e+03 * g_H2O = gal_H2O_std

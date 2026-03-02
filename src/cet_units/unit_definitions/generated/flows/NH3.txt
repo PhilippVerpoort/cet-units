@@ -37,3 +37,5 @@ billion_cubic_meter_NH3_norm = 7.16e+11 * g_NH3 = bcm_NH3_norm
 billion_cubic_meter_NH3_std = 0.772 billion_cubic_meter / gram * g_NH3 = bcm_NH3_std
 liter_NH3_norm = 0.716 * g_NH3 = l_NH3_norm
 liter_NH3_std = 0.772 liter / gram * g_NH3 = l_NH3_std
+gallon_NH3_norm = 2.71 * g_NH3 = gal_NH3_norm
+gallon_NH3_std = 0.772 gallon / gram * g_NH3 = gal_NH3_std

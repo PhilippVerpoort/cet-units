@@ -33,3 +33,5 @@ billion_cubic_meter_H2_norm = 8.38e+10 * g_H2 = bcm_H2_norm
 billion_cubic_meter_H2_std = 8.99e+10 * g_H2 = bcm_H2_std
 liter_H2_norm = 0.0838 * g_H2 = l_H2_norm
 liter_H2_std = 0.0899 * g_H2 = l_H2_std
+gallon_H2_norm = 0.317 * g_H2 = gal_H2_norm
+gallon_H2_std = 0.34 * g_H2 = gal_H2_std
