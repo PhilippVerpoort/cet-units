@@ -20,7 +20,9 @@ def generate_units_flows(p: Path):
     for flow_path in FLOWS_DATA_PATH.glob("*.csv"):
         flow_id = flow_path.stem
 
-        with open(flow_path) as file_stream:
+        # Open CSV files as UTF-8 (with optional BOM) so superscripts
+        # like '³' are decoded correctly (avoids stray 'Â' characters).
+        with open(flow_path, encoding="utf-8-sig", newline="") as file_stream:
             read = csv_reader(
                 file_stream,
                 delimiter=",",
