@@ -65,9 +65,9 @@ def generate_units_currencies(p: Path):
                 exchange_rates = deflate(
                     df=df,
                     base_year=base_year,
-                    deflator_source="world_bank",
+                    deflator_source="imf",
                     deflator_method="gdp",
-                    exchange_source="world_bank",
+                    exchange_source="imf",
                     exchange_method=None,
                     source_currency="LCU",  # Local currency unit.
                     target_currency=base_currency,  # Target is base currency.
@@ -91,7 +91,7 @@ def generate_units_currencies(p: Path):
             df = pd.DataFrame.from_dict(
                 {
                     "iso_code": country,
-                    "period": range(2005, base_year),
+                    "period": range(1995, base_year),
                     "value": 1.0,
                 }
             )
@@ -100,9 +100,9 @@ def generate_units_currencies(p: Path):
             deflators = deflate(
                 df=df,
                 base_year=base_year,
-                deflator_source="world_bank",
+                deflator_source="imf",
                 deflator_method="gdp",
-                exchange_source="world_bank",
+                exchange_source="imf",
                 exchange_method=None,
                 source_currency=currency,
                 target_currency=currency,
