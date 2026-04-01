@@ -5,10 +5,14 @@
 # Pycharm files.
 /.idea
 
+# Visual Studio Code files.
+/.vscode
+
 # pydeflate cache files.
 /src/cet_units_generate/.cache.lock
 /src/cet_units_generate/manifest.json
 /src/cet_units_generate/wb.parquet
+/src/cet_units_generate/imf_weo.parquet
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/kate,linux,macos,python,windows,powershell,libreoffice,pycharm+all,microsoftoffice,jupyternotebooks,visualstudiocode
