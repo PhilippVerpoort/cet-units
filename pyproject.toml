@@ -3,12 +3,9 @@ name = "cet-units"
 version = "0.1.0"
 description = "Climate and Energy Transition Units: Unit definitions for analysis of energy systems and climate mitigation"
 readme = "README.md"
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11,<3.13"
 dependencies = [
-    "globalwarmingpotentials>=0.13.1",
     "pint>=0.24.4",
-    "pydeflate>=2.4.0",
-    "pytest>=9.0.2",
 ]
 
 [dependency-groups]
