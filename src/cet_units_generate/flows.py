@@ -20,7 +20,7 @@ def generate_units_flows(p: Path):
     for flow_path in FLOWS_DATA_PATH.glob("*.csv"):
         flow_id = flow_path.stem
 
-        with open(flow_path) as file_stream:
+        with open(flow_path, encoding="utf-8") as file_stream:
             read = csv_reader(
                 file_stream,
                 delimiter=",",
@@ -28,7 +28,10 @@ def generate_units_flows(p: Path):
                 strict=True,
             )
             next(read)  # Skip header line.
-            flow_specs = {row[0]: row[1] for row in read}
+            flow_specs = {
+                row[0]: row[1].replace("³", "**3").replace("²", "**2") 
+                for row in read
+            }
             defs = ureg.generate_units_defs_flow(flow_id, flow_specs)
 
             # Create generic file.
