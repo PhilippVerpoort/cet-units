@@ -88,6 +88,10 @@ class CETUnitRegistry(UnitRegistry):
             lambda text, spec="": self._postprocess(format_orig(text, spec))
         )
 
+        # kt should be kilo metric tonnes, not knots.
+        self._units.pop("kt", None)
+        self._units_casei.pop("kt", None)
+
         # Load units definitions from files.
         self._on_redefinition = "ignore"  # No warning for redefining "year".
         self.load_definitions(unit_defs_path / "plain.txt")
