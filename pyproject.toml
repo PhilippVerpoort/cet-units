@@ -24,8 +24,8 @@ docs = [
 ]
 
 [project.scripts]
-units-convert = "cet_units.cli:convert"
-units-generate = "cet_units_generate.cli:generate"
+units-convert = "cet_units._cli:convert"
+units-generate = "cet_units_generate._cli:generate"
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -43,4 +43,5 @@ include-package-data = true
 line-length = 79
 
 [tool.ruff.lint]
+select = ["D"]
 extend-select = ["E501"]

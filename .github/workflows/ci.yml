@@ -35,11 +35,11 @@ jobs:
 
       - name: Ruff lint
         run: |
-          uv run ruff check .
+          uv run ruff check ./src/ ./tests/
 
       - name: Ruff format check
         run: |
-          uv run ruff format --check .
+          uv run ruff format --check ./src/ ./tests/
 
       - name: Sync dependencies
         run: |

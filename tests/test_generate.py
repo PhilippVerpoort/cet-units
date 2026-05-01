@@ -1,13 +1,18 @@
+"""Tests for unit generation."""
+
 import unittest
 from pathlib import Path
 from shutil import rmtree
 
 
-class TestGenerate(unittest.TestCase):
+class TestsGenerate(unittest.TestCase):
+    """Tests for unit generation."""
+
     def test_generate(self):
-        from cet_units_generate.currencies import generate_units_currencies
-        from cet_units_generate.emissions import generate_units_emissions
-        from cet_units_generate.flows import generate_units_flows
+        """Test unit generation."""
+        from cet_units_generate._currencies import generate_units_currencies
+        from cet_units_generate._emissions import generate_units_emissions
+        from cet_units_generate._flows import generate_units_flows
 
         unit_defs_path = Path("./test-generate-tmp/")
         unit_defs_path.mkdir(parents=True)

@@ -1,11 +1,12 @@
-from pathlib import Path
-from datetime import datetime
+"""Generate unit definitions for currencies."""
 
-from pydeflate import deflate, set_pydeflate_path
+from datetime import datetime
+from pathlib import Path
+
 import pandas as pd
+from pydeflate import deflate, set_pydeflate_path
 
 from . import FILE_HEADER
-
 
 # Define the currencies and the country GDPs used for conversion.
 currencies = {
@@ -20,8 +21,15 @@ currencies = {
 }
 
 
-# Generate unit definitions for currencies.
 def generate_units_currencies(p: Path):
+    """Generate unit definitions for currencies.
+
+    Parameters
+    ----------
+    p : Path
+        Path to the directory where the unit definitions should be stored.
+
+    """
     # Create currencies subdirectory.
     (p / "currencies").mkdir(exist_ok=True)
 

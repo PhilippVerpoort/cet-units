@@ -1,10 +1,11 @@
-from typing import Final
-from pathlib import Path
+"""Generate unit definitions for energy flows."""
+
 from csv import reader as csv_reader
+from pathlib import Path
+from typing import Final
 
 from cet_units import ureg
 from cet_units_generate import FILE_HEADER
-
 
 FLOWS_DATA_PATH: Final[Path] = Path(__file__).parent / "data" / "flows"
 
@@ -13,6 +14,14 @@ if not FLOWS_DATA_PATH.is_dir():
 
 
 def generate_units_flows(p: Path):
+    """Generate unit definitions for energy flows.
+
+    Parameters
+    ----------
+    p : Path
+        Path to the directory where the unit definitions should be stored.
+
+    """
     # Create emissions subdirectory.
     (p / "flows").mkdir(exist_ok=True)
 

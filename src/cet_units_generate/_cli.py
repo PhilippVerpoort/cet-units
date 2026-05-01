@@ -1,10 +1,9 @@
 import argparse
 from pathlib import Path
 
-from .emissions import generate_units_emissions
-from .currencies import generate_units_currencies
-from .flows import generate_units_flows
-
+from ._currencies import generate_units_currencies
+from ._emissions import generate_units_emissions
+from ._flows import generate_units_flows
 
 # Get default path to unit definitions.
 UNIT_DEFS_PATH_DEFAULT = (

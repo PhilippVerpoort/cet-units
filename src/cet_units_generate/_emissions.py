@@ -1,10 +1,11 @@
+"""Generate unit definitions for greenhouse-gas emissions."""
+
 from pathlib import Path
 from re import sub
 
 import globalwarmingpotentials as gwp
 
 from . import FILE_HEADER
-
 
 GENERIC_DEFS = """
 gram__CO2 = [ghg_emission] = g__CO2
@@ -24,6 +25,14 @@ def _safe_ghg_label(s: str):
 
 
 def generate_units_emissions(p: Path):
+    """Generate unit definitions for greenhouse-gas emissions.
+
+    Parameters
+    ----------
+    p : Path
+        Path to the directory where the unit definitions should be stored.
+
+    """
     # Create emissions subdirectory.
     (p / "emissions").mkdir(exist_ok=True)
 

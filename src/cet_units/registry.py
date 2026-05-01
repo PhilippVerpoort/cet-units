@@ -1,8 +1,9 @@
+"""Define CET unit registry."""
+
 from pathlib import Path
 from re import sub
 
 from pint import UnitRegistry
-
 
 # Define unit variants to be defined for each flow.
 FLOW_UNIT_VARIANTS = {
@@ -49,19 +50,36 @@ FLOW_EXTEND_UNITS = {
 
 
 class CETUnitRegistry(UnitRegistry):
+    """Unit registry for climate and energy transition units.
+
+    This is a subclass of `pint`'s default `UnitRegistry`. It loads additional
+    unit definitions relevant in the climate and energy transition context (
+    currencies, emissions, energy flows).
+
+    Attributes
+    ----------
+    species : list[str]
+        List of greenhouse-gas emission species for which separate units are
+        defined.
+    currencies : list[str]
+        List of currencies for which separate units are defined.
+
+    """
+
     _unit_defs_path: Path | None = None
     _species: list[str] = []
     _currencies: list[str] = []
 
     @property
-    def species(self) -> list[str]:
+    def species(self) -> list[str]:  # noqa: D102
         return self._species
 
     @property
-    def currencies(self) -> list[str]:
+    def currencies(self) -> list[str]:  # noqa: D102
         return self._currencies
 
-    def setup_cet_defs(self, unit_defs_path: Path):
+    def _setup_cet_defs(self, unit_defs_path: Path):
+        """Set up unit definitions from unit definition files."""
         # Store path to unit definitions directory in registry object.
         self._unit_defs_path = unit_defs_path
 
@@ -84,8 +102,8 @@ class CETUnitRegistry(UnitRegistry):
 
         # Add postprocessing to registry.
         format_orig = self.formatter.format_quantity
-        self.formatter.format_quantity = (
-            lambda text, spec="": self._postprocess(format_orig(text, spec))
+        self.formatter.format_quantity = lambda text, spec="": (
+            self._postprocess(format_orig(text, spec))
         )
 
         # kt should be kilo metric tonnes, not knots.
@@ -118,7 +136,22 @@ class CETUnitRegistry(UnitRegistry):
             rf"(g|t|gram|metric_ton)__({'|'.join(self._species)})", r"\1 \2", s
         )
 
-    def define_flows(self, flows: tuple | list | dict):
+    def define_flows(self, flows: tuple[str] | list[str] | dict):
+        """Define flow units.
+
+        Flows units (mass, volume, energy) can be defined for different flow
+        types, e.g. natural gas, coal, or hydrogen. These can either be loaded
+        from a stored list of known flow types by providing a list of strings
+        or can be defined manually via a dictionary.
+
+        Parameters
+        ----------
+        flows : tuple | list | dict
+            List or dictionary of flows to define. When a list of strings is
+            passed, the definitions will be loaded from stored definitions. If
+            a dictionary is passed, then the definitions will be set manually.
+
+        """
         if isinstance(flows, tuple | list):
             if not all(isinstance(s, str) for s in flows):
                 raise Exception(
@@ -148,6 +181,19 @@ class CETUnitRegistry(UnitRegistry):
         flow_specs: dict[str, str],
         print_defs: bool = False,
     ):
+        """Generate flow units definitions from flow specifications.
+
+        Parameters
+        ----------
+        flow_id : str
+            Name of the flow ID.
+        flow_specs : dict[str, str]
+            Dictionary containing the flow properties (volumetric and energetic
+            densities).
+        print_defs : bool, optional
+            Definitions can be printed to standard out while generated.
+
+        """
         # Temporary bugfix: compatible units are not determined correctly when
         # unit registry is loaded from cache.
         self._build_cache()
@@ -231,7 +277,6 @@ class CETUnitRegistry(UnitRegistry):
                 )
                 defs.append(d)
                 defs.append("")
-
 
         ret = "\n".join(defs)
 

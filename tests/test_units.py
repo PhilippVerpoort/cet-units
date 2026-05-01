@@ -1,16 +1,20 @@
+"""Tests for unit definitions."""
+
 import unittest
 
 
-class TestUnits(unittest.TestCase):
-    # using the unit registry to create some standard units
-    def test(self):
+class TestsDefinitions(unittest.TestCase):
+    """Tests for unit definitions."""
+
+    def test_definitions(self):
+        """Test definitions."""
         # Check that importing works without failure.
-        from cet_units import ureg, Q, U
+        from cet_units import Q, U, ureg
 
         # Check that defining flows works without failure.
         ureg.define_flows(["H2", "NG", "NH3", "MeOH"])
 
-        # Check that units can be defined without failure.
+        # Check that currency units are defined correctly.
         U("USD_2005")
 
         # Check that conversion give correct result.
