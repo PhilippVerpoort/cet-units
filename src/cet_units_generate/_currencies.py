@@ -127,10 +127,12 @@ def generate_units_currencies(p: Path):
             # are omitted.
             deflators = deflators.loc[
                 deflators["conv_factor"].apply(
-                    lambda x: not (
-                        pd.isna(x)
-                        or str(x).strip().lower().strip("<>")
-                        in {"n/a", "na", "nan", ""}
+                    lambda x: (
+                        not (
+                            pd.isna(x)
+                            or str(x).strip().lower().strip("<>")
+                            in {"n/a", "na", "nan", ""}
+                        )
                     )
                 )
             ]
