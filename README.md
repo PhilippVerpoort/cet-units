@@ -79,7 +79,7 @@ The possible dimensions for conversion are:
 
 The conversion factors and bibliographic information for their sources are stored in [`src/cet_units_generate/data`](src/cet_units_generate/data/).
 
-## Credits and Thanks
+## Credits and thanks
 
 * Built on top of [pint](https://github.com/hgrecco/pint). Thank you to its contributors.
 * Inspired by the [iam-units](https://github.com/IAMconsortium/units/) package.

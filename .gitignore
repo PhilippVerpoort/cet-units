@@ -9,6 +9,7 @@
 /src/cet_units_generate/.cache.lock
 /src/cet_units_generate/manifest.json
 /src/cet_units_generate/wb.parquet
+/tests/test-generate-tmp/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/kate,linux,macos,python,windows,powershell,libreoffice,pycharm+all,microsoftoffice,jupyternotebooks,visualstudiocode

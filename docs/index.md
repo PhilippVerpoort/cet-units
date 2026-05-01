@@ -81,7 +81,7 @@ The possible dimensions for conversion are:
 * `[energy]` — lower-heating value (`LHV`) and higher-heating value (`HHV`)
 * `[volume]` — normal (`norm`) and standard (`std`) temperature and pressure
 
-## Credits and Thanks
+## Credits and thanks
 
 * Developed by [P.C. Verpoort](https://philipp.verpoort.online) at the [Potsdam Institute for Climate Impact Research (PIK)](https://www.pik-potsdam.de/).
 * Built on top of [pint](https://github.com/hgrecco/pint). Thank you to its contributors.
