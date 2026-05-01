@@ -15,7 +15,7 @@ class TestsGenerate(unittest.TestCase):
         from cet_units_generate._flows import generate_units_flows
 
         unit_defs_path = Path("./test-generate-tmp/")
-        unit_defs_path.mkdir(parents=True)
+        unit_defs_path.mkdir(parents=True, exist_ok=True)
 
         generate_units_currencies(unit_defs_path)
         generate_units_emissions(unit_defs_path)

@@ -30,12 +30,12 @@ watt_NH3_LHV = joule_NH3_LHV / second = W_NH3_LHV
 watt_NH3_HHV = joule_NH3_HHV / second = W_NH3_HHV
 
 cubic_meter_NH3_norm = 716 * g_NH3 = cu_m_NH3_norm
-cubic_meter_NH3_std = 0.772 cubic_meter / gram * g_NH3 = cu_m_NH3_std
+cubic_meter_NH3_std = 772 * g_NH3 = cu_m_NH3_std
 cubic_foot_NH3_norm = 20.3 * g_NH3 = cu_ft_NH3_norm
-cubic_foot_NH3_std = 0.772 cubic_foot / gram * g_NH3 = cu_ft_NH3_std
+cubic_foot_NH3_std = 21.8 * g_NH3 = cu_ft_NH3_std
 billion_cubic_meter_NH3_norm = 7.16e+11 * g_NH3 = bcm_NH3_norm
-billion_cubic_meter_NH3_std = 0.772 billion_cubic_meter / gram * g_NH3 = bcm_NH3_std
+billion_cubic_meter_NH3_std = 7.72e+11 * g_NH3 = bcm_NH3_std
 liter_NH3_norm = 0.716 * g_NH3 = l_NH3_norm
-liter_NH3_std = 0.772 liter / gram * g_NH3 = l_NH3_std
+liter_NH3_std = 0.772 * g_NH3 = l_NH3_std
 gallon_NH3_norm = 2.71 * g_NH3 = gal_NH3_norm
-gallon_NH3_std = 0.772 gallon / gram * g_NH3 = gal_NH3_std
+gallon_NH3_std = 2.92 * g_NH3 = gal_NH3_std
