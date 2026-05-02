@@ -1,6 +1,6 @@
 {
   "title": "CET Units",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "creators": [
     {
       "name": "Verpoort, Philipp C.",
@@ -14,5 +14,5 @@
     "title": "MIT Licence",
     "url": "http://www.opensource.org/licenses/MIT"
   },
-  "publication_date": "2026-01-06"
+  "publication_date": "2026-05-02"
 }
