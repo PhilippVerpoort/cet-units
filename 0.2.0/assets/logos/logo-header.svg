@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 278.29664 278.29664"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:217.419px;line-height:1;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.513588;stroke-dashoffset:22.6771"
+     x="413.79968"
+     y="598.17987"
+     id="text2"><tspan
+       id="tspan2"
+       style="fill:#ffffff;stroke-width:0.513589"
+       x="413.79968"
+       y="598.17987" /></text>
+  <path
+     style="font-stretch:condensed;font-size:244.597px;line-height:1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Condensed';letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:0.513588;stroke-dashoffset:22.6771"
+     d="M 192.59264,168.50002 Q 192.59264,197.36246 179.13981,212.52748 165.68697,227.69249 139.0259,227.69249 112.85402,227.69249 99.15659,212.77207 85.703755,197.60706 85.703755,168.50002 V 50.604263 H 106.7391 V 168.74461 Q 106.7391,189.29076 115.05539,199.07464 123.37169,208.85852 139.51509,208.85852 171.3127,208.85852 171.3127,168.50002 V 50.604263 H 192.59264 Z"
+     id="text5"
+     aria-label="U" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;stroke-dashoffset:22.6771;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+     d="M 0,18.099609 V 258.51953 H 54.355469 V 232.83984 H 25.679687 V 43.777344 H 54.355469 V 18.099609 Z"
+     id="path3" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#ffffff;stroke-dashoffset:22.6771;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+     d="M 223.94141,18.099609 V 43.777344 H 252.61719 V 232.83984 H 223.94141 V 258.51953 H 278.29687 V 18.099609 Z"
+     id="path5" />
+</svg>
