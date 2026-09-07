@@ -1,0 +1,92 @@
+.cet-calculator {
+  margin: 1.5em 0;
+  padding: 1.2em 1.4em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3em;
+  background-color: var(--md-code-bg-color);
+}
+
+.cet-calculator .cet-field {
+  margin-bottom: 0.8em;
+}
+
+.cet-calculator label {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+}
+
+.cet-calculator .cet-optional {
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
+
+.cet-calculator input[type="text"],
+.cet-calculator select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.4em 0.6em;
+  font-family: var(--md-code-font);
+  font-size: 0.85em;
+  color: var(--md-default-fg-color);
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2em;
+}
+
+.cet-calculator button {
+  padding: 0.5em 1.2em;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-fg-color);
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.cet-calculator button:disabled {
+  cursor: progress;
+  opacity: 0.6;
+}
+
+.cet-calculator .cet-examples {
+  margin-top: 1em;
+  font-size: 0.75em;
+}
+
+.cet-calculator .cet-example {
+  margin: 0.2em 0.3em 0.2em 0;
+  padding: 0.3em 0.6em;
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--md-default-fg-color);
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.cet-calculator .cet-status {
+  margin-top: 1em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+
+.cet-calculator .cet-result,
+.cet-calculator .cet-error {
+  margin-top: 1em;
+  padding: 0.8em 1em;
+  border-radius: 0.2em;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.cet-calculator .cet-result {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent);
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.cet-calculator .cet-error {
+  background-color: color-mix(in srgb, red 10%, transparent);
+  border-left: 4px solid red;
+  color: var(--md-default-fg-color);
+}

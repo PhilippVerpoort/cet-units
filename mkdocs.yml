@@ -12,11 +12,12 @@ theme:
     primary: custom
   features:
     - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.path
     - navigation.indexes
     - navigation.expand
     - navigation.sections
-    - toc.integrate
     # - announce.dismiss
   icon:
     repo: fontawesome/brands/github
@@ -40,10 +41,18 @@ extra:
 extra_css:
   - assets/css/extra.css
   - assets/css/theme-toggle.css
+  - assets/css/calculator.css
 
 extra_javascript:
 - javascripts/mathjax.js
 - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+- path: assets/javascripts/calculator-config.js
+  defer: true
+- path: assets/javascripts/calculator.js
+  defer: true
+
+hooks:
+- hooks/pyodide_wheel.py
 
 markdown_extensions:
 - attr_list
@@ -70,3 +79,4 @@ plugins:
 
 nav:
 - Home: index.md
+- Calculator: calculator.md
