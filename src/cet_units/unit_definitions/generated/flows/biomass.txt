@@ -1,0 +1,18 @@
+# This file has been generated automatically. Do not edit manually.
+
+gram_biomass = [amount_of_biomass] = g_biomass
+
+metric_ton_biomass = 1e+06 * g_biomass = t_biomass
+ton_biomass = 9.07e+05 * g_biomass = ton_biomass
+pound_biomass = 454 * g_biomass = lb_biomass
+
+
+joule_biomass_LHV = 6.41e-05 * g_biomass = J_biomass_LHV
+watt_hour_biomass_LHV = 0.231 * g_biomass = Wh_biomass_LHV
+british_thermal_unit_biomass_LHV = 0.0676 * g_biomass = Btu_biomass_LHV
+international_british_thermal_unit_biomass_LHV = 0.0676 * g_biomass = Btu_it_biomass_LHV
+thermochemical_british_thermal_unit_biomass_LHV = 0.0676 * g_biomass = Btu_th_biomass_LHV
+
+watt_biomass_LHV = joule_biomass_LHV / second = W_biomass_LHV
+watt_biomass_HHV = joule_biomass_HHV / second = W_biomass_HHV
+

@@ -1,0 +1,3 @@
+attribute,value,source,comment
+name,Biomass,,
+energycontent_LHV,15.6 MJ/kg,IPCC-EFDB-ND,"2006 IPCC Guidelines for National GHG Inventories, Vol. 2 (Energy), Ch. 1, Table 1.2. Default net calorific value (NCV) for Wood/Wood Waste, used as a generic solid-biomass proxy; reported range across biomass fuel types is 7.90-31.0 TJ/Gg."
