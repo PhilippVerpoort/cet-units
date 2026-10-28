@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="assets/logos/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
     
     
       
@@ -27,10 +27,10 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -664,18 +664,18 @@
 <p>Deflators and exchange rates are defined to conveniently convert currencies from current (nominal) to constant (real) values and between currencies (e.g. USD and EUR).</p>
 <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span><span class="w"> </span><span class="nn">cet_units</span><span class="w"> </span><span class="kn">import</span> <span class="n">ureg</span>
 <span class="o">&gt;&gt;&gt;</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_from</span> <span class="o">=</span> <span class="n">ureg</span><span class="p">(</span><span class="s2">&quot;1 USD_2020&quot;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_to</span> <span class="o">=</span> <span class="n">unit_from</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">&quot;EUR_2024&quot;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">unit_to</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="mf">1.098</span> <span class="n">EUR_2024</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_from</span> <span class="o">=</span> <span class="n">ureg</span><span class="p">(</span><span class="s2">"1 USD_2020"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_to</span> <span class="o">=</span> <span class="n">unit_from</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">"EUR_2024"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">unit_to</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="mf">1.051</span> <span class="n">EUR_2024</span>
 </code></pre></div>
 <h3 id="emissions">Emissions</h3>
 <p>Greenhouse-gas emission species can be converted according to a climate assessment, e.g. <code>AR6GWP100</code> (IPCC Assessment Report 6, 100-year warming period).</p>
 <p><div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span><span class="w"> </span><span class="nn">cet_units</span><span class="w"> </span><span class="kn">import</span> <span class="n">ureg</span>
 <span class="o">&gt;&gt;&gt;</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_from</span> <span class="o">=</span> <span class="n">ureg</span><span class="p">(</span><span class="s2">&quot;1 Mt CH4&quot;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_to</span> <span class="o">=</span> <span class="n">unit_from</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">&quot;Mt CO2eq&quot;</span><span class="p">,</span> <span class="s2">&quot;AR6GWP100&quot;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">unit_to</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_from</span> <span class="o">=</span> <span class="n">ureg</span><span class="p">(</span><span class="s2">"1 Mt CH4"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_to</span> <span class="o">=</span> <span class="n">unit_from</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">"Mt CO2eq"</span><span class="p">,</span> <span class="s2">"AR6GWP100"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">unit_to</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="mf">27.9</span> <span class="n">Mt</span> <span class="n">CO2eq</span>
 </code></pre></div>
 The global-warming potentials for the different species have been taken from <a href="https://github.com/openclimatedata/globalwarmingpotentials/">globalwarmingpotentials</a>.</p>
@@ -684,10 +684,10 @@ The global-warming potentials for the different species have been taken from <a 
 <div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span><span class="w"> </span><span class="nn">cet_units</span><span class="w"> </span><span class="kn">import</span> <span class="n">ureg</span>
 <span class="o">&gt;&gt;&gt;</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="c1"># Load definitions for hydrogen, natural gas, ammonia, and methanol.</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">ureg</span><span class="o">.</span><span class="n">define_flows</span><span class="p">([</span><span class="s2">&quot;H2&quot;</span><span class="p">,</span> <span class="s2">&quot;NG&quot;</span><span class="p">,</span> <span class="s2">&quot;NH3&quot;</span><span class="p">,</span> <span class="s2">&quot;MeOH&quot;</span><span class="p">])</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_from</span> <span class="o">=</span> <span class="n">ureg</span><span class="p">(</span><span class="s2">&quot;1 kg_H2&quot;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_to</span> <span class="o">=</span> <span class="n">unit_from</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">&quot;kWh_H2_LHV&quot;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">unit_to</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">ureg</span><span class="o">.</span><span class="n">define_flows</span><span class="p">([</span><span class="s2">"H2"</span><span class="p">,</span> <span class="s2">"NG"</span><span class="p">,</span> <span class="s2">"NH3"</span><span class="p">,</span> <span class="s2">"MeOH"</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_from</span> <span class="o">=</span> <span class="n">ureg</span><span class="p">(</span><span class="s2">"1 kg_H2"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">unit_to</span> <span class="o">=</span> <span class="n">unit_from</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">"kWh_H2_LHV"</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">unit_to</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="mf">33.333</span> <span class="n">kWh_H2_LHV</span>
 </code></pre></div>
 <p>The possible dimensions for conversion are:</p>
@@ -763,10 +763,10 @@ The global-warming potentials for the different species have been taken from <a 
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.tabs.link", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": "latest", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.tabs.link", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.indexes", "navigation.expand", "navigation.sections"], "search": "assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"alias": true, "default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="assets/javascripts/bundle.c21346df.min.js"></script>
       
         <script src="javascripts/mathjax.js"></script>
       
@@ -777,5 +777,112 @@ The global-warming potentials for the different species have been taken from <a 
         <script src="assets/javascripts/calculator.js" defer></script>
       
     
-  </body>
+  <script data-mkdocs-jupyter-mathjax="{&quot;url&quot;: &quot;https://cdn.jsdelivr.net/npm/mathjax@4.1.3/tex-mml-chtml.js&quot;, &quot;version&quot;: 4}">
+/* Shared by full pages and Material's instant navigation. */
+(() => {
+  const config = JSON.parse(document.currentScript.dataset.mkdocsJupyterMathjax);
+  if (window.mkdocsJupyterMathJax) return;
+
+  let loading;
+  let queue = Promise.resolve();
+  let previous = [];
+
+  const ready = async () => {
+    if (!loading) {
+      loading = (async () => {
+        let math = window.MathJax;
+        if (!math?.typesetPromise) {
+          const url = new URL(config.url, document.baseURI).href;
+          const existing = Array.from(document.scripts).find(script =>
+            script.src && (script.src === url || script.id === 'MathJax-script' ||
+              (/mathjax/i.test(script.src) &&
+               /\/(?:MathJax|latest|(?:tex|mml)(?:-mml)?-(?:chtml|svg))\.js(?:[?#]|$)/i.test(script.src))));
+          if (existing) {
+            if (!math?.startup?.promise) {
+              await new Promise((resolve, reject) => {
+                existing.addEventListener('load', resolve, { once: true });
+                existing.addEventListener('error', reject, { once: true });
+              });
+            }
+          } else {
+            // Keep site macros, delimiters and startup hooks when supplied.
+            const options = math || {};
+            window.MathJax = {
+              ...options,
+              loader: {
+                ...options.loader,
+                load: Array.from(new Set(['ui/safe', ...(options.loader?.load || [])]))
+              },
+              startup: { typeset: false, ...options.startup },
+              tex: {
+                tags: 'ams',
+                useLabelIds: true,
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                ...options.tex
+              }
+            };
+            await new Promise((resolve, reject) => {
+              const script = document.createElement('script');
+              script.src = config.url;
+              script.id = 'MathJax-script';
+              script.async = true;
+              script.onload = resolve;
+              script.onerror = reject;
+              document.head.appendChild(script);
+            });
+          }
+        }
+        math = window.MathJax;
+        await math.startup.promise;
+        return math;
+      })();
+    }
+    const math = await loading;
+    // A site owner can extend the v3 queue again on each navigation.
+    await math.startup.promise;
+    return math;
+  };
+
+  const unrendered = node => {
+    if (node.matches('mjx-container')) return [];
+    if (!node.querySelector('mjx-container')) return [node];
+    // In v3, scanning generated assistive MathML again produces nested output.
+    return Array.from(node.children).flatMap(unrendered);
+  };
+
+  const refresh = () => {
+    // A separate chain also serializes v3, without changing v4's startup promise.
+    queue = queue.then(async () => {
+      const notebooks = Array.from(document.querySelectorAll('.jupyter-wrapper'));
+      if (!notebooks.length && !previous.length) return;
+      if (notebooks.length === previous.length &&
+          notebooks.every((node, index) => node === previous[index])) return;
+      const math = await ready();
+      if (previous.length) {
+        math.typesetClear(previous);
+        math.texReset();
+      }
+      previous = notebooks.filter(node => node.isConnected);
+      const pending = previous.flatMap(unrendered);
+      if (pending.length) await math.typesetPromise(pending);
+    }).catch(error => console.error('mkdocs-jupyter: MathJax rendering failed', error));
+    return queue;
+  };
+
+  window.mkdocsJupyterMathJax = { refresh };
+  const start = () => {
+    if (typeof document$ !== 'undefined') document$.subscribe(refresh);
+    else refresh();
+  };
+  // Theme bundles and user-provided MathJax scripts can follow notebook content.
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start, { once: true });
+  } else start();
+})();
+
+</script>
+</body>
 </html>
