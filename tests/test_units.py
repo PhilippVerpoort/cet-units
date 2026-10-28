@@ -19,4 +19,4 @@ class TestsDefinitions(unittest.TestCase):
 
         # Check that conversion give correct result.
         q = Q("1 USD_2020 / kg_H2").to("EUR_2024 / MWh_H2_LHV")
-        self.assertAlmostEqual(q.m, 33.0, places=0)
+        self.assertAlmostEqual(q.m, 31.5, places=1)
