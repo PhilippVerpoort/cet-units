@@ -15,6 +15,8 @@ currencies = {
     # Euro based on EMU purchasing power (currently Germany  only, because EMU
     # does not exist yet. See: https://github.com/jm-rivera/pydeflate/issues/27
     "EUR": "DEU",
+    # British Pound based on UK purchasing power.
+    "GBP": "GBR",
     # Chinese Yuan based on Chinese purchasing power. Currently doesn't work
     # yet.
     # "CHN": "CHN",
@@ -39,7 +41,7 @@ def generate_units_currencies(p: Path):
     # Define this year and the previous. The currencies will be defined up to
     # and including the last year's.
     this_year = datetime.now().year
-    base_year = this_year - 2
+    base_year = this_year - 1
 
     # Define the base currency as the first currency in the list above. All
     # currencies will be converted to the base currency via exchange rates.

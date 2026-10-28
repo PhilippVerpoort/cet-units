@@ -40,9 +40,9 @@ Deflators and exchange rates are defined to conveniently convert currencies from
 >>> unit_from = ureg("1 USD_2020")
 >>> unit_to = unit_from.to("EUR_2024")
 >>> print(f"{unit_to:.3f}")
-1.098 EUR_2024
+1.051 EUR_2024
 ```
-The deflators and exchange rates are obtained from the World Bank using the [pydeflate](https://pydeflate.readthedocs.io/) package.
+The deflators and exchange rates are obtained from the International Monetary Fund (IMF) using the [pydeflate](https://pydeflate.readthedocs.io/) package.
 
 ### Emissions
 Greenhouse-gas emission species can be converted according to a climate assessment, e.g. `ARG6GWP100` (IPCC Assessment Report 6, 100-year warming period).

@@ -45,7 +45,7 @@ Deflators and exchange rates are defined to conveniently convert currencies from
 >>> unit_from = ureg("1 USD_2020")
 >>> unit_to = unit_from.to("EUR_2024")
 >>> print(f"{unit_to:.3f}")
-1.098 EUR_2024
+1.051 EUR_2024
 ```
 
 ### Emissions
